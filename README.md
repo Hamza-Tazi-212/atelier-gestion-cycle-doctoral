@@ -2,8 +2,8 @@
 
 **Étudiant :** Hamza Tazi  
 **Compte GitHub :** [Hamza-Tazi-212](https://github.com/Hamza-Tazi-212)  
-**Dernière mise à jour :** 23 octobre 2026  
-**État :** phase d’analyse et de modélisation — en attente de retour pédagogique.
+**Dernière mise à jour :** 12 novembre 2026<br>
+**État :** TP de la séance 5 terminé. Projet Laravel GCD+ initialisé en local.
 
 ## Objectif
 
@@ -18,6 +18,12 @@
 | [Inscription — version modifiable](docs/diagrammes/inscription.md) | Diagramme en Mermaid et périmètre de la proposition. |
 | [Réinscription — version modifiable](docs/diagrammes/reinscription.md) | Diagramme en Mermaid et périmètre de la proposition. |
 | [Suivi de l’avancement](docs/avancement.md) | Travaux réalisés, points à discuter et prochaines étapes. |
+| [TP de la séance 5](docs/tp-seance-5/README.md) | Trois diagrammes UML et règles de gestion des candidatures. |
+| [Tableau comparatif GCD](docs/tableau-comparatif-gcd.pdf) | Pistes d’amélioration discutées en atelier. |
+
+## Parcours candidat confirmé pour GCD+
+
+L’accueil présente les sujets publiés sans connexion. Le visiteur peut les ajouter au panier, qui est conservé après connexion. L’envoi d’une candidature exige une connexion par e-mail. Chaque candidat peut postuler à trois sujets maximum par campagne, en comptant les candidatures déjà envoyées.
 
 ## Aperçu de la proposition simplifiée
 
@@ -36,6 +42,7 @@
 - [x] Réaliser les deux diagrammes détaillés avec leurs références.
 - [x] Préparer une proposition simplifiée des deux parcours.
 - [x] Exporter les diagrammes en PDF.
+- [x] Finaliser le TP de la séance 5 et ajouter le tableau comparatif.
 - [ ] Présenter les propositions au professeur et recueillir ses observations.
 - [ ] Corriger les diagrammes à partir des retours.
 - [ ] Valider la version à retenir pour la suite du travail.

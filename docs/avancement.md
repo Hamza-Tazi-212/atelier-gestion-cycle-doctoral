@@ -1,6 +1,6 @@
 # Suivi d’avancement
 
-**Dernière mise à jour : 23 octobre 2026**
+**Dernière mise à jour : 12 novembre 2026**
 
 ## Travaux réalisés
 
@@ -10,6 +10,8 @@
 | 23/10/2026 | Modélisation de l’inscription et de la réinscription à partir des ressources. | Deux diagrammes détaillés, avec explication des étapes et références. |
 | 23/10/2026 | Discussion d’une organisation plus simple. | Deux diagrammes regroupant préparation, évaluation et validation institutionnelle. |
 | 23/10/2026 | Préparation des documents de présentation. | Deux PDF, aperçus visuels et versions Mermaid modifiables. |
+| 12/11/2026 | Finalisation du TP de la séance 5 et ajout du tableau comparatif. | Trois diagrammes UML, règles de gestion et pistes d’amélioration. |
+| 12/11/2026 | Confirmation du parcours candidat et initialisation de GCD+ en local. | Accueil public, panier sans compte, connexion par e-mail pour postuler et trois sujets maximum. |
 
 ## Points à discuter avec le professeur
 
