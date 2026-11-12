@@ -1,0 +1,393 @@
+<svg width="1804pt" height="662pt"
+ viewBox="0.00 0.00 1804.00 662.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 644)">
+<title>G</title>
+<!-- Personne -->
+<g id="node1" class="node">
+<title>Personne</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M96.38,-124.8C96.38,-124.8 35,-124.8 35,-124.8 29,-124.8 23,-118.8 23,-112.8 23,-112.8 23,-71.2 23,-71.2 23,-65.2 29,-59.2 35,-59.2 35,-59.2 96.38,-59.2 96.38,-59.2 102.38,-59.2 108.38,-65.2 108.38,-71.2 108.38,-71.2 108.38,-112.8 108.38,-112.8 108.38,-118.8 102.38,-124.8 96.38,-124.8"/>
+<text xml:space="preserve" text-anchor="middle" x="65.69" y="-110" font-family="Arial" font-size="12.00" fill="#152b44">Personne</text>
+<text xml:space="preserve" text-anchor="middle" x="65.69" y="-95.6" font-family="Arial" font-size="12.00" fill="#152b44">nom</text>
+<text xml:space="preserve" text-anchor="middle" x="65.69" y="-81.2" font-family="Arial" font-size="12.00" fill="#152b44">prénom</text>
+<text xml:space="preserve" text-anchor="middle" x="65.69" y="-66.8" font-family="Arial" font-size="12.00" fill="#152b44">coordonnées</text>
+</g>
+<!-- Candidat -->
+<g id="node2" class="node">
+<title>Candidat</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M462.64,-151.6C462.64,-151.6 341.89,-151.6 341.89,-151.6 335.89,-151.6 329.89,-145.6 329.89,-139.6 329.89,-139.6 329.89,-112.4 329.89,-112.4 329.89,-106.4 335.89,-100.4 341.89,-100.4 341.89,-100.4 462.64,-100.4 462.64,-100.4 468.64,-100.4 474.64,-106.4 474.64,-112.4 474.64,-112.4 474.64,-139.6 474.64,-139.6 474.64,-145.6 468.64,-151.6 462.64,-151.6"/>
+<text xml:space="preserve" text-anchor="middle" x="402.27" y="-136.8" font-family="Arial" font-size="12.00" fill="#152b44">Candidat</text>
+<text xml:space="preserve" text-anchor="middle" x="402.27" y="-122.4" font-family="Arial" font-size="12.00" fill="#152b44">parcours académique</text>
+<text xml:space="preserve" text-anchor="middle" x="402.27" y="-108" font-family="Arial" font-size="12.00" fill="#152b44">situation professionnelle</text>
+</g>
+<!-- Personne&#45;&gt;Candidat -->
+<g id="edge1" class="edge">
+<title>Personne&#45;&gt;Candidat</title>
+<path fill="none" stroke="#526987" d="M119.95,-97.41C176.63,-103.17 266.64,-112.32 329.54,-118.71"/>
+<polygon fill="none" stroke="#526987" points="120.53,-93.95 110.23,-96.42 119.82,-100.92 120.53,-93.95"/>
+</g>
+<!-- Enseignant -->
+<g id="node3" class="node">
+<title>Enseignant</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M291.89,-273C291.89,-273 239.84,-273 239.84,-273 233.84,-273 227.84,-267 227.84,-261 227.84,-261 227.84,-249 227.84,-249 227.84,-243 233.84,-237 239.84,-237 239.84,-237 291.89,-237 291.89,-237 297.89,-237 303.89,-243 303.89,-249 303.89,-249 303.89,-261 303.89,-261 303.89,-267 297.89,-273 291.89,-273"/>
+<text xml:space="preserve" text-anchor="middle" x="265.87" y="-251.4" font-family="Arial" font-size="12.00" fill="#152b44">Enseignant</text>
+</g>
+<!-- Personne&#45;&gt;Enseignant -->
+<g id="edge2" class="edge">
+<title>Personne&#45;&gt;Enseignant</title>
+<path fill="none" stroke="#526987" d="M115.45,-132.1C155.94,-165.41 211.71,-211.28 242.38,-236.51"/>
+<polygon fill="none" stroke="#526987" points="117.91,-129.6 107.96,-125.95 113.46,-135 117.91,-129.6"/>
+</g>
+<!-- Administrateur -->
+<g id="node7" class="node">
+<title>Administrateur</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M723.7,-36C723.7,-36 654.34,-36 654.34,-36 648.34,-36 642.34,-30 642.34,-24 642.34,-24 642.34,-12 642.34,-12 642.34,-6 648.34,0 654.34,0 654.34,0 723.7,0 723.7,0 729.7,0 735.7,-6 735.7,-12 735.7,-12 735.7,-24 735.7,-24 735.7,-30 729.7,-36 723.7,-36"/>
+<text xml:space="preserve" text-anchor="middle" x="689.02" y="-14.4" font-family="Arial" font-size="12.00" fill="#152b44">Administrateur</text>
+</g>
+<!-- Personne&#45;&gt;Administrateur -->
+<g id="edge3" class="edge">
+<title>Personne&#45;&gt;Administrateur</title>
+<path fill="none" stroke="#526987" d="M119.28,-63.64C131.47,-58.21 144.62,-53.22 157.38,-50 332.11,-5.95 548.98,-10.48 642.08,-15.11"/>
+<polygon fill="none" stroke="#526987" points="117.8,-60.47 110.21,-67.86 120.76,-66.82 117.8,-60.47"/>
+</g>
+<!-- Accord -->
+<g id="node21" class="node">
+<title>Accord</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1755.09,-214.8C1755.09,-214.8 1655.68,-214.8 1655.68,-214.8 1649.68,-214.8 1643.68,-208.8 1643.68,-202.8 1643.68,-202.8 1643.68,-161.2 1643.68,-161.2 1643.68,-155.2 1649.68,-149.2 1655.68,-149.2 1655.68,-149.2 1755.09,-149.2 1755.09,-149.2 1761.09,-149.2 1767.09,-155.2 1767.09,-161.2 1767.09,-161.2 1767.09,-202.8 1767.09,-202.8 1767.09,-208.8 1761.09,-214.8 1755.09,-214.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1705.39" y="-200" font-family="Arial" font-size="12.00" fill="#152b44">Accord</text>
+<text xml:space="preserve" text-anchor="middle" x="1705.39" y="-185.6" font-family="Arial" font-size="12.00" fill="#152b44">qualité du signataire</text>
+<text xml:space="preserve" text-anchor="middle" x="1705.39" y="-171.2" font-family="Arial" font-size="12.00" fill="#152b44">résultat</text>
+<text xml:space="preserve" text-anchor="middle" x="1705.39" y="-156.8" font-family="Arial" font-size="12.00" fill="#152b44">date</text>
+</g>
+<!-- Personne&#45;&gt;Accord -->
+<g id="edge28" class="edge">
+<title>Personne&#45;&gt;Accord</title>
+<path fill="none" stroke="#526987" d="M108.66,-84.28C148.67,-77.6 210.66,-69 264.87,-69 264.87,-69 264.87,-69 1437.96,-69 1520.47,-69 1542.71,-82.14 1617.02,-118 1633.95,-126.17 1650.99,-137.73 1665.46,-148.77"/>
+<text xml:space="preserve" text-anchor="middle" x="932.21" y="-72" font-family="Arial" font-size="10.00" fill="#213950">signe</text>
+<text xml:space="preserve" text-anchor="middle" x="1657.96" y="-139.77" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="105.88" y="-75.28" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Candidature -->
+<g id="node14" class="node">
+<title>Candidature</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1222.22,-342.6C1222.22,-342.6 1156.83,-342.6 1156.83,-342.6 1150.83,-342.6 1144.83,-336.6 1144.83,-330.6 1144.83,-330.6 1144.83,-303.4 1144.83,-303.4 1144.83,-297.4 1150.83,-291.4 1156.83,-291.4 1156.83,-291.4 1222.22,-291.4 1222.22,-291.4 1228.22,-291.4 1234.22,-297.4 1234.22,-303.4 1234.22,-303.4 1234.22,-330.6 1234.22,-330.6 1234.22,-336.6 1228.22,-342.6 1222.22,-342.6"/>
+<text xml:space="preserve" text-anchor="middle" x="1189.53" y="-327.8" font-family="Arial" font-size="12.00" fill="#152b44">Candidature</text>
+<text xml:space="preserve" text-anchor="middle" x="1189.53" y="-313.4" font-family="Arial" font-size="12.00" fill="#152b44">date de dépôt</text>
+<text xml:space="preserve" text-anchor="middle" x="1189.53" y="-299" font-family="Arial" font-size="12.00" fill="#152b44">état</text>
+</g>
+<!-- Candidat&#45;&gt;Candidature -->
+<g id="edge15" class="edge">
+<title>Candidat&#45;&gt;Candidature</title>
+<path fill="none" stroke="#526987" d="M474.94,-128.35C532.51,-130.03 615.46,-132 688.02,-132 688.02,-132 688.02,-132 1015.68,-132 1101.83,-132 1157.38,-240.44 1178.69,-291.28"/>
+<text xml:space="preserve" text-anchor="middle" x="825.39" y="-135" font-family="Arial" font-size="10.00" fill="#213950">dépose</text>
+<text xml:space="preserve" text-anchor="middle" x="1171.19" y="-282.28" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="472.16" y="-119.35" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- DirecteurThese -->
+<g id="node4" class="node">
+<title>DirecteurThese</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M726.04,-332C726.04,-332 652,-332 652,-332 646,-332 640,-326 640,-320 640,-320 640,-308 640,-308 640,-302 646,-296 652,-296 652,-296 726.04,-296 726.04,-296 732.04,-296 738.04,-302 738.04,-308 738.04,-308 738.04,-320 738.04,-320 738.04,-326 732.04,-332 726.04,-332"/>
+<text xml:space="preserve" text-anchor="middle" x="689.02" y="-310.4" font-family="Arial" font-size="12.00" fill="#152b44">DirecteurThese</text>
+</g>
+<!-- Enseignant&#45;&gt;DirecteurThese -->
+<g id="edge4" class="edge">
+<title>Enseignant&#45;&gt;DirecteurThese</title>
+<path fill="none" stroke="#526987" d="M315.03,-270.49C320.02,-271.8 325.04,-273.01 329.89,-274 439.29,-296.41 570.25,-307.01 639.51,-311.38"/>
+<polygon fill="none" stroke="#526987" points="316.27,-267.2 305.7,-267.89 314.39,-273.95 316.27,-267.2"/>
+</g>
+<!-- CoEncadrant -->
+<g id="node5" class="node">
+<title>CoEncadrant</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M720.04,-273C720.04,-273 658,-273 658,-273 652,-273 646,-267 646,-261 646,-261 646,-249 646,-249 646,-243 652,-237 658,-237 658,-237 720.04,-237 720.04,-237 726.04,-237 732.04,-243 732.04,-249 732.04,-249 732.04,-261 732.04,-261 732.04,-267 726.04,-273 720.04,-273"/>
+<text xml:space="preserve" text-anchor="middle" x="689.02" y="-251.4" font-family="Arial" font-size="12.00" fill="#152b44">CoEncadrant</text>
+</g>
+<!-- Enseignant&#45;&gt;CoEncadrant -->
+<g id="edge5" class="edge">
+<title>Enseignant&#45;&gt;CoEncadrant</title>
+<path fill="none" stroke="#526987" d="M315.65,-255C398.95,-255 567.18,-255 645.77,-255"/>
+<polygon fill="none" stroke="#526987" points="315.76,-251.5 305.76,-255 315.76,-258.5 315.76,-251.5"/>
+</g>
+<!-- DirecteurStructure -->
+<g id="node6" class="node">
+<title>DirecteurStructure</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M602,-212C602,-212 512.64,-212 512.64,-212 506.64,-212 500.64,-206 500.64,-200 500.64,-200 500.64,-188 500.64,-188 500.64,-182 506.64,-176 512.64,-176 512.64,-176 602,-176 602,-176 608,-176 614,-182 614,-188 614,-188 614,-200 614,-200 614,-206 608,-212 602,-212"/>
+<text xml:space="preserve" text-anchor="middle" x="557.32" y="-190.4" font-family="Arial" font-size="12.00" fill="#152b44">DirecteurStructure</text>
+</g>
+<!-- Enseignant&#45;&gt;DirecteurStructure -->
+<g id="edge6" class="edge">
+<title>Enseignant&#45;&gt;DirecteurStructure</title>
+<path fill="none" stroke="#526987" d="M315.11,-239.87C320.08,-238.49 325.08,-237.17 329.89,-236 387.59,-222 454.54,-210.11 500.59,-202.59"/>
+<polygon fill="none" stroke="#526987" points="314.44,-236.42 305.8,-242.55 316.37,-243.15 314.44,-236.42"/>
+</g>
+<!-- Sujet -->
+<g id="node13" class="node">
+<title>Sujet</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1039.7,-342.6C1039.7,-342.6 989.66,-342.6 989.66,-342.6 983.66,-342.6 977.66,-336.6 977.66,-330.6 977.66,-330.6 977.66,-303.4 977.66,-303.4 977.66,-297.4 983.66,-291.4 989.66,-291.4 989.66,-291.4 1039.7,-291.4 1039.7,-291.4 1045.7,-291.4 1051.7,-297.4 1051.7,-303.4 1051.7,-303.4 1051.7,-330.6 1051.7,-330.6 1051.7,-336.6 1045.7,-342.6 1039.7,-342.6"/>
+<text xml:space="preserve" text-anchor="middle" x="1014.68" y="-327.8" font-family="Arial" font-size="12.00" fill="#152b44">Sujet</text>
+<text xml:space="preserve" text-anchor="middle" x="1014.68" y="-313.4" font-family="Arial" font-size="12.00" fill="#152b44">titre</text>
+<text xml:space="preserve" text-anchor="middle" x="1014.68" y="-299" font-family="Arial" font-size="12.00" fill="#152b44">description</text>
+</g>
+<!-- DirecteurThese&#45;&gt;Sujet -->
+<g id="edge13" class="edge">
+<title>DirecteurThese&#45;&gt;Sujet</title>
+<path fill="none" stroke="#526987" d="M738.48,-314.45C803.9,-315.06 919.01,-316.12 977.45,-316.66"/>
+<text xml:space="preserve" text-anchor="middle" x="825.39" y="-318.82" font-family="Arial" font-size="10.00" fill="#213950">supervise</text>
+<text xml:space="preserve" text-anchor="middle" x="984.95" y="-307.66" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="735.69" y="-305.45" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- CoEncadrant&#45;&gt;Sujet -->
+<g id="edge14" class="edge">
+<title>CoEncadrant&#45;&gt;Sujet</title>
+<path fill="none" stroke="#526987" d="M732.33,-263.11C796.42,-275.38 917,-298.48 977.35,-310.04"/>
+<text xml:space="preserve" text-anchor="middle" x="825.39" y="-295.6" font-family="Arial" font-size="10.00" fill="#213950">coencadre</text>
+<text xml:space="preserve" text-anchor="middle" x="969.84" y="-301.04" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="724.83" y="-254.11" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+</g>
+<!-- StructureRecherche -->
+<g id="node8" class="node">
+<title>StructureRecherche</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M874.75,-205C874.75,-205 776.04,-205 776.04,-205 770.04,-205 764.04,-199 764.04,-193 764.04,-193 764.04,-181 764.04,-181 764.04,-175 770.04,-169 776.04,-169 776.04,-169 874.75,-169 874.75,-169 880.75,-169 886.75,-175 886.75,-181 886.75,-181 886.75,-193 886.75,-193 886.75,-199 880.75,-205 874.75,-205"/>
+<text xml:space="preserve" text-anchor="middle" x="825.39" y="-183.4" font-family="Arial" font-size="12.00" fill="#152b44">StructureRecherche</text>
+</g>
+<!-- DirecteurStructure&#45;&gt;StructureRecherche -->
+<g id="edge7" class="edge">
+<title>DirecteurStructure&#45;&gt;StructureRecherche</title>
+<path fill="none" stroke="#526987" d="M614.42,-192.52C658.18,-191.37 718.86,-189.78 763.74,-188.6"/>
+<text xml:space="preserve" text-anchor="middle" x="689.02" y="-194.74" font-family="Arial" font-size="10.00" fill="#213950">dirige</text>
+<text xml:space="preserve" text-anchor="middle" x="760.96" y="-179.6" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+<text xml:space="preserve" text-anchor="middle" x="606.92" y="-183.52" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+</g>
+<!-- Inscription -->
+<g id="node22" class="node">
+<title>Inscription</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1755.75,-93.4C1755.75,-93.4 1655.02,-93.4 1655.02,-93.4 1649.02,-93.4 1643.02,-87.4 1643.02,-81.4 1643.02,-81.4 1643.02,-68.6 1643.02,-68.6 1643.02,-62.6 1649.02,-56.6 1655.02,-56.6 1655.02,-56.6 1755.75,-56.6 1755.75,-56.6 1761.75,-56.6 1767.75,-62.6 1767.75,-68.6 1767.75,-68.6 1767.75,-81.4 1767.75,-81.4 1767.75,-87.4 1761.75,-93.4 1755.75,-93.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1705.39" y="-78.6" font-family="Arial" font-size="12.00" fill="#152b44">Inscription</text>
+<text xml:space="preserve" text-anchor="middle" x="1705.39" y="-64.2" font-family="Arial" font-size="12.00" fill="#152b44">date de confirmation</text>
+</g>
+<!-- Administrateur&#45;&gt;Inscription -->
+<g id="edge30" class="edge">
+<title>Administrateur&#45;&gt;Inscription</title>
+<path fill="none" stroke="#526987" d="M735.81,-18C784.32,-18 863.17,-18 931.21,-18 931.21,-18 931.21,-18 1437.96,-18 1512.46,-18 1596.13,-39.58 1649.5,-56.18"/>
+<text xml:space="preserve" text-anchor="middle" x="1098.26" y="-21" font-family="Arial" font-size="10.00" fill="#213950">confirme</text>
+<text xml:space="preserve" text-anchor="middle" x="1641.99" y="-47.18" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="733.03" y="-9" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- StructureRecherche&#45;&gt;Sujet -->
+<g id="edge11" class="edge">
+<title>StructureRecherche&#45;&gt;Sujet</title>
+<path fill="none" stroke="#526987" d="M886.99,-196.01C908.91,-201.45 932.86,-210.15 951.66,-224 975.1,-241.27 992.36,-270.23 1002.64,-291.25"/>
+<text xml:space="preserve" text-anchor="middle" x="932.21" y="-227" font-family="Arial" font-size="10.00" fill="#213950">accueille</text>
+<text xml:space="preserve" text-anchor="middle" x="995.14" y="-282.25" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="884.21" y="-187.01" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- CentreDoctoral -->
+<g id="node9" class="node">
+<title>CentreDoctoral</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M593.67,-390C593.67,-390 520.97,-390 520.97,-390 514.97,-390 508.97,-384 508.97,-378 508.97,-378 508.97,-366 508.97,-366 508.97,-360 514.97,-354 520.97,-354 520.97,-354 593.67,-354 593.67,-354 599.67,-354 605.67,-360 605.67,-366 605.67,-366 605.67,-378 605.67,-378 605.67,-384 599.67,-390 593.67,-390"/>
+<text xml:space="preserve" text-anchor="middle" x="557.32" y="-368.4" font-family="Arial" font-size="12.00" fill="#152b44">CentreDoctoral</text>
+</g>
+<!-- FormationDoctorale -->
+<g id="node11" class="node">
+<title>FormationDoctorale</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M874.08,-451C874.08,-451 776.71,-451 776.71,-451 770.71,-451 764.71,-445 764.71,-439 764.71,-439 764.71,-427 764.71,-427 764.71,-421 770.71,-415 776.71,-415 776.71,-415 874.08,-415 874.08,-415 880.08,-415 886.08,-421 886.08,-427 886.08,-427 886.08,-439 886.08,-439 886.08,-445 880.08,-451 874.08,-451"/>
+<text xml:space="preserve" text-anchor="middle" x="825.39" y="-429.4" font-family="Arial" font-size="12.00" fill="#152b44">FormationDoctorale</text>
+</g>
+<!-- CentreDoctoral&#45;&gt;FormationDoctorale -->
+<g id="edge8" class="edge">
+<title>CentreDoctoral&#45;&gt;FormationDoctorale</title>
+<path fill="none" stroke="#526987" d="M605.89,-382.91C650.29,-393.08 716.7,-408.31 764.65,-419.3"/>
+<text xml:space="preserve" text-anchor="middle" x="689.02" y="-414.53" font-family="Arial" font-size="10.00" fill="#213950">coordonne</text>
+<text xml:space="preserve" text-anchor="middle" x="757.14" y="-410.3" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="603.11" y="-373.91" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Etablissement -->
+<g id="node10" class="node">
+<title>Etablissement</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M591.01,-451C591.01,-451 523.64,-451 523.64,-451 517.64,-451 511.64,-445 511.64,-439 511.64,-439 511.64,-427 511.64,-427 511.64,-421 517.64,-415 523.64,-415 523.64,-415 591.01,-415 591.01,-415 597.01,-415 603.01,-421 603.01,-427 603.01,-427 603.01,-439 603.01,-439 603.01,-445 597.01,-451 591.01,-451"/>
+<text xml:space="preserve" text-anchor="middle" x="557.32" y="-429.4" font-family="Arial" font-size="12.00" fill="#152b44">Etablissement</text>
+</g>
+<!-- Etablissement&#45;&gt;FormationDoctorale -->
+<g id="edge9" class="edge">
+<title>Etablissement&#45;&gt;FormationDoctorale</title>
+<path fill="none" stroke="#526987" d="M603.46,-433C647.79,-433 715.69,-433 764.51,-433"/>
+<text xml:space="preserve" text-anchor="middle" x="689.02" y="-436" font-family="Arial" font-size="10.00" fill="#213950">domicilie</text>
+<text xml:space="preserve" text-anchor="middle" x="757.01" y="-424" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="600.68" y="-424" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- FormationDoctorale&#45;&gt;Sujet -->
+<g id="edge10" class="edge">
+<title>FormationDoctorale&#45;&gt;Sujet</title>
+<path fill="none" stroke="#526987" d="M864.59,-414.51C871.99,-410.79 879.65,-406.84 886.75,-403 916.16,-387.11 923.96,-383.71 951.66,-365 961.7,-358.22 972.26,-350.35 981.76,-342.97"/>
+<text xml:space="preserve" text-anchor="middle" x="932.21" y="-391.77" font-family="Arial" font-size="10.00" fill="#213950">propose</text>
+<text xml:space="preserve" text-anchor="middle" x="974.25" y="-333.97" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="861.81" y="-405.51" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Campagne -->
+<g id="node12" class="node">
+<title>Campagne</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M872.09,-390.4C872.09,-390.4 778.7,-390.4 778.7,-390.4 772.7,-390.4 766.7,-384.4 766.7,-378.4 766.7,-378.4 766.7,-365.6 766.7,-365.6 766.7,-359.6 772.7,-353.6 778.7,-353.6 778.7,-353.6 872.09,-353.6 872.09,-353.6 878.09,-353.6 884.09,-359.6 884.09,-365.6 884.09,-365.6 884.09,-378.4 884.09,-378.4 884.09,-384.4 878.09,-390.4 872.09,-390.4"/>
+<text xml:space="preserve" text-anchor="middle" x="825.39" y="-375.6" font-family="Arial" font-size="12.00" fill="#152b44">Campagne</text>
+<text xml:space="preserve" text-anchor="middle" x="825.39" y="-361.2" font-family="Arial" font-size="12.00" fill="#152b44">année universitaire</text>
+</g>
+<!-- Campagne&#45;&gt;Sujet -->
+<g id="edge12" class="edge">
+<title>Campagne&#45;&gt;Sujet</title>
+<path fill="none" stroke="#526987" d="M884.46,-355.54C905.63,-349.48 929.75,-342.5 951.66,-336 959.98,-333.53 968.9,-330.83 977.31,-328.26"/>
+<text xml:space="preserve" text-anchor="middle" x="932.21" y="-350.08" font-family="Arial" font-size="10.00" fill="#213950">ouvre</text>
+<text xml:space="preserve" text-anchor="middle" x="969.81" y="-319.26" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="881.68" y="-346.54" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Sujet&#45;&gt;Candidature -->
+<g id="edge16" class="edge">
+<title>Sujet&#45;&gt;Candidature</title>
+<path fill="none" stroke="#526987" d="M1051.91,-317C1078.84,-317 1115.71,-317 1144.37,-317"/>
+<text xml:space="preserve" text-anchor="middle" x="1098.26" y="-320" font-family="Arial" font-size="10.00" fill="#213950">concerne</text>
+<text xml:space="preserve" text-anchor="middle" x="1136.86" y="-308" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="1049.13" y="-308" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Piece -->
+<g id="node15" class="node">
+<title>Piece</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1749.41,-320.8C1749.41,-320.8 1661.37,-320.8 1661.37,-320.8 1655.37,-320.8 1649.37,-314.8 1649.37,-308.8 1649.37,-308.8 1649.37,-267.2 1649.37,-267.2 1649.37,-261.2 1655.37,-255.2 1661.37,-255.2 1661.37,-255.2 1749.41,-255.2 1749.41,-255.2 1755.41,-255.2 1761.41,-261.2 1761.41,-267.2 1761.41,-267.2 1761.41,-308.8 1761.41,-308.8 1761.41,-314.8 1755.41,-320.8 1749.41,-320.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1705.39" y="-306" font-family="Arial" font-size="12.00" fill="#152b44">Piece</text>
+<text xml:space="preserve" text-anchor="middle" x="1705.39" y="-291.6" font-family="Arial" font-size="12.00" fill="#152b44">intitulé</text>
+<text xml:space="preserve" text-anchor="middle" x="1705.39" y="-277.2" font-family="Arial" font-size="12.00" fill="#152b44">date de remise</text>
+<text xml:space="preserve" text-anchor="middle" x="1705.39" y="-262.8" font-family="Arial" font-size="12.00" fill="#152b44">état de conformité</text>
+</g>
+<!-- Candidature&#45;&gt;Piece -->
+<g id="edge17" class="edge">
+<title>Candidature&#45;&gt;Piece</title>
+<path fill="none" stroke="#526987" d="M1247.26,-311.59C1285.17,-308.14 1336.17,-303.8 1381.27,-301 1475.12,-295.18 1584.49,-291.41 1648.89,-289.5"/>
+<polygon fill="#526987" stroke="#526987" points="1247.27,-311.59 1241.67,-316.12 1235.33,-312.69 1240.93,-308.16 1247.27,-311.59"/>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-304" font-family="Arial" font-size="10.00" fill="#213950">dossier de candidature</text>
+<text xml:space="preserve" text-anchor="middle" x="1641.38" y="-280.5" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="1231.65" y="-303.77" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Entretien -->
+<g id="node17" class="node">
+<title>Entretien</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1469.65,-587.8C1469.65,-587.8 1404.27,-587.8 1404.27,-587.8 1398.27,-587.8 1392.27,-581.8 1392.27,-575.8 1392.27,-575.8 1392.27,-534.2 1392.27,-534.2 1392.27,-528.2 1398.27,-522.2 1404.27,-522.2 1404.27,-522.2 1469.65,-522.2 1469.65,-522.2 1475.65,-522.2 1481.65,-528.2 1481.65,-534.2 1481.65,-534.2 1481.65,-575.8 1481.65,-575.8 1481.65,-581.8 1475.65,-587.8 1469.65,-587.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-573" font-family="Arial" font-size="12.00" fill="#152b44">Entretien</text>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-558.6" font-family="Arial" font-size="12.00" fill="#152b44">date</text>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-544.2" font-family="Arial" font-size="12.00" fill="#152b44">lieu</text>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-529.8" font-family="Arial" font-size="12.00" fill="#152b44">compte rendu</text>
+</g>
+<!-- Candidature&#45;&gt;Entretien -->
+<g id="edge20" class="edge">
+<title>Candidature&#45;&gt;Entretien</title>
+<path fill="none" stroke="#526987" d="M1217.26,-342.92C1262.11,-386.42 1352.44,-474.01 1401.81,-521.89"/>
+<text xml:space="preserve" text-anchor="middle" x="1307.74" y="-474.22" font-family="Arial" font-size="10.00" fill="#213950">donne lieu à</text>
+<text xml:space="preserve" text-anchor="middle" x="1393.47" y="-512.89" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+<text xml:space="preserve" text-anchor="middle" x="1214.48" y="-333.92" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- DecisionSelection -->
+<g id="node19" class="node">
+<title>DecisionSelection</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1480.65,-390.8C1480.65,-390.8 1393.27,-390.8 1393.27,-390.8 1387.27,-390.8 1381.27,-384.8 1381.27,-378.8 1381.27,-378.8 1381.27,-337.2 1381.27,-337.2 1381.27,-331.2 1387.27,-325.2 1393.27,-325.2 1393.27,-325.2 1480.65,-325.2 1480.65,-325.2 1486.65,-325.2 1492.65,-331.2 1492.65,-337.2 1492.65,-337.2 1492.65,-378.8 1492.65,-378.8 1492.65,-384.8 1486.65,-390.8 1480.65,-390.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-376" font-family="Arial" font-size="12.00" fill="#152b44">DecisionSelection</text>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-361.6" font-family="Arial" font-size="12.00" fill="#152b44">résultat</text>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-347.2" font-family="Arial" font-size="12.00" fill="#152b44">motif</text>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-332.8" font-family="Arial" font-size="12.00" fill="#152b44">rang éventuel</text>
+</g>
+<!-- Candidature&#45;&gt;DecisionSelection -->
+<g id="edge23" class="edge">
+<title>Candidature&#45;&gt;DecisionSelection</title>
+<path fill="none" stroke="#526987" d="M1234.69,-324.38C1275.68,-331.22 1336.84,-341.44 1380.98,-348.82"/>
+<text xml:space="preserve" text-anchor="middle" x="1307.74" y="-346.57" font-family="Arial" font-size="10.00" fill="#213950">reçoit</text>
+<text xml:space="preserve" text-anchor="middle" x="1373.47" y="-339.82" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="1237.47" y="-315.38" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- DossierInscription -->
+<g id="node20" class="node">
+<title>DossierInscription</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1480.64,-232C1480.64,-232 1393.27,-232 1393.27,-232 1387.27,-232 1381.27,-226 1381.27,-220 1381.27,-220 1381.27,-208 1381.27,-208 1381.27,-202 1387.27,-196 1393.27,-196 1393.27,-196 1480.64,-196 1480.64,-196 1486.64,-196 1492.64,-202 1492.64,-208 1492.64,-208 1492.64,-220 1492.64,-220 1492.64,-226 1486.64,-232 1480.64,-232"/>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-210.4" font-family="Arial" font-size="12.00" fill="#152b44">DossierInscription</text>
+</g>
+<!-- Candidature&#45;&gt;DossierInscription -->
+<g id="edge25" class="edge">
+<title>Candidature&#45;&gt;DossierInscription</title>
+<path fill="none" stroke="#526987" d="M1214.85,-291.01C1227.35,-279.04 1243.47,-265.62 1260.22,-257 1298.06,-237.52 1345.08,-226.62 1380.96,-220.67"/>
+<text xml:space="preserve" text-anchor="middle" x="1307.74" y="-260" font-family="Arial" font-size="10.00" fill="#213950">ouvre après sélection</text>
+<text xml:space="preserve" text-anchor="middle" x="1372.62" y="-211.67" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+<text xml:space="preserve" text-anchor="middle" x="1212.07" y="-282.01" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- TypePiece -->
+<g id="node16" class="node">
+<title>TypePiece</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1476,-466.6C1476,-466.6 1397.92,-466.6 1397.92,-466.6 1391.92,-466.6 1385.92,-460.6 1385.92,-454.6 1385.92,-454.6 1385.92,-427.4 1385.92,-427.4 1385.92,-421.4 1391.92,-415.4 1397.92,-415.4 1397.92,-415.4 1476,-415.4 1476,-415.4 1482,-415.4 1488,-421.4 1488,-427.4 1488,-427.4 1488,-454.6 1488,-454.6 1488,-460.6 1482,-466.6 1476,-466.6"/>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-451.8" font-family="Arial" font-size="12.00" fill="#152b44">TypePiece</text>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-437.4" font-family="Arial" font-size="12.00" fill="#152b44">libellé</text>
+<text xml:space="preserve" text-anchor="middle" x="1436.96" y="-423" font-family="Arial" font-size="12.00" fill="#152b44">contenu attendu</text>
+</g>
+<!-- TypePiece&#45;&gt;Piece -->
+<g id="edge18" class="edge">
+<title>TypePiece&#45;&gt;Piece</title>
+<path fill="none" stroke="#526987" d="M1483.15,-415.05C1529.03,-388.7 1600.11,-347.88 1649.27,-319.65"/>
+<text xml:space="preserve" text-anchor="middle" x="1567.83" y="-394.51" font-family="Arial" font-size="10.00" fill="#213950">qualifie</text>
+<text xml:space="preserve" text-anchor="middle" x="1641.76" y="-310.65" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="1480.37" y="-406.05" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- CommissionSelection -->
+<g id="node18" class="node">
+<title>CommissionSelection</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M119.38,-538C119.38,-538 12,-538 12,-538 6,-538 0,-532 0,-526 0,-526 0,-514 0,-514 0,-508 6,-502 12,-502 12,-502 119.38,-502 119.38,-502 125.38,-502 131.38,-508 131.38,-514 131.38,-514 131.38,-526 131.38,-526 131.38,-532 125.38,-538 119.38,-538"/>
+<text xml:space="preserve" text-anchor="middle" x="65.69" y="-516.4" font-family="Arial" font-size="12.00" fill="#152b44">CommissionSelection</text>
+</g>
+<!-- CommissionSelection&#45;&gt;Enseignant -->
+<g id="edge22" class="edge">
+<title>CommissionSelection&#45;&gt;Enseignant</title>
+<path fill="none" stroke="#526987" d="M80.31,-501.79C116.51,-453.37 214.84,-321.9 251.15,-273.34"/>
+<text xml:space="preserve" text-anchor="middle" x="179.61" y="-398.45" font-family="Arial" font-size="10.00" fill="#213950">comprend</text>
+<text xml:space="preserve" text-anchor="middle" x="243.65" y="-264.34" font-family="Arial" font-size="10.00" fill="#213950">1..*</text>
+<text xml:space="preserve" text-anchor="middle" x="72.81" y="-492.79" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+</g>
+<!-- CommissionSelection&#45;&gt;Candidature -->
+<g id="edge19" class="edge">
+<title>CommissionSelection&#45;&gt;Candidature</title>
+<path fill="none" stroke="#526987" d="M131.45,-504.68C169.97,-496.87 219.94,-489 264.87,-489 264.87,-489 264.87,-489 1015.68,-489 1097.6,-489 1154.43,-390.73 1177.3,-342.75"/>
+<text xml:space="preserve" text-anchor="middle" x="689.02" y="-492" font-family="Arial" font-size="10.00" fill="#213950">examine</text>
+<text xml:space="preserve" text-anchor="middle" x="1169.79" y="-333.75" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="123.11" y="-495.68" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+</g>
+<!-- CommissionSelection&#45;&gt;Entretien -->
+<g id="edge21" class="edge">
+<title>CommissionSelection&#45;&gt;Entretien</title>
+<path fill="none" stroke="#526987" d="M88.56,-538.35C123.46,-565.7 194.99,-614 264.87,-614 264.87,-614 264.87,-614 1190.53,-614 1262.62,-614 1343.4,-589.64 1391.94,-572.22"/>
+<text xml:space="preserve" text-anchor="middle" x="825.39" y="-617" font-family="Arial" font-size="10.00" fill="#213950">conduit</text>
+<text xml:space="preserve" text-anchor="middle" x="1384.43" y="-563.22" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="85.78" y="-529.35" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- CommissionSelection&#45;&gt;DecisionSelection -->
+<g id="edge24" class="edge">
+<title>CommissionSelection&#45;&gt;DecisionSelection</title>
+<path fill="none" stroke="#526987" d="M131.87,-535.91C170.33,-543.94 220.08,-552 264.87,-552 264.87,-552 264.87,-552 1190.53,-552 1268.92,-552 1301.86,-546.38 1355.27,-489 1382.47,-459.77 1359.12,-436.23 1381.27,-403 1384.06,-398.81 1387.37,-394.8 1390.94,-391.03"/>
+<text xml:space="preserve" text-anchor="middle" x="825.39" y="-555" font-family="Arial" font-size="10.00" fill="#213950">prononce</text>
+<text xml:space="preserve" text-anchor="middle" x="1383.44" y="-382.03" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="129.09" y="-526.91" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- DossierInscription&#45;&gt;Piece -->
+<g id="edge26" class="edge">
+<title>DossierInscription&#45;&gt;Piece</title>
+<path fill="none" stroke="#526987" d="M1492.82,-225.6C1528.46,-233.52 1575.79,-244.77 1617.02,-257 1627.51,-260.11 1638.59,-263.76 1649.21,-267.43"/>
+<text xml:space="preserve" text-anchor="middle" x="1567.83" y="-260" font-family="Arial" font-size="10.00" fill="#213950">pièces administratives</text>
+<text xml:space="preserve" text-anchor="middle" x="1641.71" y="-258.43" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="1484.48" y="-216.6" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+</g>
+<!-- DossierInscription&#45;&gt;Accord -->
+<g id="edge27" class="edge">
+<title>DossierInscription&#45;&gt;Accord</title>
+<path fill="none" stroke="#526987" d="M1505.61,-205.87C1548.09,-200.77 1602.41,-194.25 1643.53,-189.31"/>
+<polygon fill="#526987" stroke="#526987" points="1505.65,-205.87 1500.17,-210.56 1493.73,-207.3 1499.21,-202.61 1505.65,-205.87"/>
+<text xml:space="preserve" text-anchor="middle" x="1567.83" y="-206.65" font-family="Arial" font-size="10.00" fill="#213950">recueille</text>
+<text xml:space="preserve" text-anchor="middle" x="1636.03" y="-180.31" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="1490.06" y="-198.41" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- DossierInscription&#45;&gt;Inscription -->
+<g id="edge29" class="edge">
+<title>DossierInscription&#45;&gt;Inscription</title>
+<path fill="none" stroke="#526987" d="M1473.34,-195.54C1524.15,-169.03 1617.3,-120.43 1668.43,-93.76"/>
+<text xml:space="preserve" text-anchor="middle" x="1567.83" y="-172.04" font-family="Arial" font-size="10.00" fill="#213950">aboutit à</text>
+<text xml:space="preserve" text-anchor="middle" x="1660.09" y="-84.76" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+<text xml:space="preserve" text-anchor="middle" x="1470.56" y="-186.54" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+</g>
+</svg>

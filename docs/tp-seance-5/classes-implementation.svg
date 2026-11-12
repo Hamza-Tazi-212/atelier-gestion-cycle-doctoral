@@ -1,0 +1,572 @@
+<svg width="1463pt" height="1483pt"
+ viewBox="0.00 0.00 1463.00 1483.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 1464.8)">
+<title>G</title>
+<!-- Utilisateur -->
+<g id="node1" class="node">
+<title>Utilisateur</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1049.37,-1446.8C1049.37,-1446.8 900.63,-1446.8 900.63,-1446.8 894.63,-1446.8 888.63,-1440.8 888.63,-1434.8 888.63,-1434.8 888.63,-1378.8 888.63,-1378.8 888.63,-1372.8 894.63,-1366.8 900.63,-1366.8 900.63,-1366.8 1049.37,-1366.8 1049.37,-1366.8 1055.37,-1366.8 1061.37,-1372.8 1061.37,-1378.8 1061.37,-1378.8 1061.37,-1434.8 1061.37,-1434.8 1061.37,-1440.8 1055.37,-1446.8 1049.37,-1446.8"/>
+<text xml:space="preserve" text-anchor="middle" x="975" y="-1432" font-family="Arial" font-size="12.00" fill="#152b44">Utilisateur</text>
+<text xml:space="preserve" text-anchor="middle" x="975" y="-1417.6" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="975" y="-1403.2" font-family="Arial" font-size="12.00" fill="#152b44">String emailUnique</text>
+<text xml:space="preserve" text-anchor="middle" x="975" y="-1388.8" font-family="Arial" font-size="12.00" fill="#152b44">String empreinteMotDePasse</text>
+<text xml:space="preserve" text-anchor="middle" x="975" y="-1374.4" font-family="Arial" font-size="12.00" fill="#152b44">String statutCompte</text>
+</g>
+<!-- ProfilCandidat -->
+<g id="node2" class="node">
+<title>ProfilCandidat</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M850.71,-1179C850.71,-1179 697.29,-1179 697.29,-1179 691.29,-1179 685.29,-1173 685.29,-1167 685.29,-1167 685.29,-1111 685.29,-1111 685.29,-1105 691.29,-1099 697.29,-1099 697.29,-1099 850.71,-1099 850.71,-1099 856.71,-1099 862.71,-1105 862.71,-1111 862.71,-1111 862.71,-1167 862.71,-1167 862.71,-1173 856.71,-1179 850.71,-1179"/>
+<text xml:space="preserve" text-anchor="middle" x="774" y="-1164.2" font-family="Arial" font-size="12.00" fill="#152b44">ProfilCandidat</text>
+<text xml:space="preserve" text-anchor="middle" x="774" y="-1149.8" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="774" y="-1135.4" font-family="Arial" font-size="12.00" fill="#152b44">String identite</text>
+<text xml:space="preserve" text-anchor="middle" x="774" y="-1121" font-family="Arial" font-size="12.00" fill="#152b44">String parcoursAcademique</text>
+<text xml:space="preserve" text-anchor="middle" x="774" y="-1106.6" font-family="Arial" font-size="12.00" fill="#152b44">String situationProfessionnelle</text>
+</g>
+<!-- Utilisateur&#45;&gt;ProfilCandidat -->
+<g id="edge1" class="edge">
+<title>Utilisateur&#45;&gt;ProfilCandidat</title>
+<path fill="none" stroke="#526987" d="M891.92,-1366.44C880.99,-1358.96 870.61,-1350.41 862,-1340.8 819.7,-1293.61 795.19,-1222.87 783.23,-1179.17"/>
+<text xml:space="preserve" text-anchor="middle" x="774.89" y="-1182.17" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+<text xml:space="preserve" text-anchor="middle" x="889.14" y="-1369.44" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- ProfilEnseignant -->
+<g id="node3" class="node">
+<title>ProfilEnseignant</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M613.69,-1292.2C613.69,-1292.2 534.31,-1292.2 534.31,-1292.2 528.31,-1292.2 522.31,-1286.2 522.31,-1280.2 522.31,-1280.2 522.31,-1238.6 522.31,-1238.6 522.31,-1232.6 528.31,-1226.6 534.31,-1226.6 534.31,-1226.6 613.69,-1226.6 613.69,-1226.6 619.69,-1226.6 625.69,-1232.6 625.69,-1238.6 625.69,-1238.6 625.69,-1280.2 625.69,-1280.2 625.69,-1286.2 619.69,-1292.2 613.69,-1292.2"/>
+<text xml:space="preserve" text-anchor="middle" x="574" y="-1277.4" font-family="Arial" font-size="12.00" fill="#152b44">ProfilEnseignant</text>
+<text xml:space="preserve" text-anchor="middle" x="574" y="-1263" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="574" y="-1248.6" font-family="Arial" font-size="12.00" fill="#152b44">String nom</text>
+<text xml:space="preserve" text-anchor="middle" x="574" y="-1234.2" font-family="Arial" font-size="12.00" fill="#152b44">String prenom</text>
+</g>
+<!-- Utilisateur&#45;&gt;ProfilEnseignant -->
+<g id="edge2" class="edge">
+<title>Utilisateur&#45;&gt;ProfilEnseignant</title>
+<path fill="none" stroke="#526987" d="M888.49,-1386.62C803.8,-1367.05 681.35,-1336.42 638,-1313.8 627.1,-1308.11 616.38,-1300.31 606.92,-1292.43"/>
+<text xml:space="preserve" text-anchor="middle" x="598.58" y="-1295.43" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+<text xml:space="preserve" text-anchor="middle" x="885.71" y="-1389.62" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- AttributionRole -->
+<g id="node6" class="node">
+<title>AttributionRole</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1313.69,-1313.8C1313.69,-1313.8 1212.31,-1313.8 1212.31,-1313.8 1206.31,-1313.8 1200.31,-1307.8 1200.31,-1301.8 1200.31,-1301.8 1200.31,-1217 1200.31,-1217 1200.31,-1211 1206.31,-1205 1212.31,-1205 1212.31,-1205 1313.69,-1205 1313.69,-1205 1319.69,-1205 1325.69,-1211 1325.69,-1217 1325.69,-1217 1325.69,-1301.8 1325.69,-1301.8 1325.69,-1307.8 1319.69,-1313.8 1313.69,-1313.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1263" y="-1299" font-family="Arial" font-size="12.00" fill="#152b44">AttributionRole</text>
+<text xml:space="preserve" text-anchor="middle" x="1263" y="-1284.6" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="1263" y="-1270.2" font-family="Arial" font-size="12.00" fill="#152b44">String typePerimetre</text>
+<text xml:space="preserve" text-anchor="middle" x="1263" y="-1255.8" font-family="Arial" font-size="12.00" fill="#152b44">UUID perimetreId</text>
+<text xml:space="preserve" text-anchor="middle" x="1263" y="-1241.4" font-family="Arial" font-size="12.00" fill="#152b44">UUID attribueParId</text>
+<text xml:space="preserve" text-anchor="middle" x="1263" y="-1227" font-family="Arial" font-size="12.00" fill="#152b44">DateTime debut</text>
+<text xml:space="preserve" text-anchor="middle" x="1263" y="-1212.6" font-family="Arial" font-size="12.00" fill="#152b44">DateTime fin</text>
+</g>
+<!-- Utilisateur&#45;&gt;AttributionRole -->
+<g id="edge3" class="edge">
+<title>Utilisateur&#45;&gt;AttributionRole</title>
+<path fill="none" stroke="#526987" d="M1061.76,-1388.1C1100.07,-1377.9 1144.59,-1362.66 1181,-1340.8 1193.14,-1333.51 1204.85,-1324.09 1215.44,-1314.26"/>
+<text xml:space="preserve" text-anchor="middle" x="1207.93" y="-1317.26" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="1058.98" y="-1391.1" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Accord -->
+<g id="node19" class="node">
+<title>Accord</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1022.04,-472.2C1022.04,-472.2 905.96,-472.2 905.96,-472.2 899.96,-472.2 893.96,-466.2 893.96,-460.2 893.96,-460.2 893.96,-404.2 893.96,-404.2 893.96,-398.2 899.96,-392.2 905.96,-392.2 905.96,-392.2 1022.04,-392.2 1022.04,-392.2 1028.04,-392.2 1034.04,-398.2 1034.04,-404.2 1034.04,-404.2 1034.04,-460.2 1034.04,-460.2 1034.04,-466.2 1028.04,-472.2 1022.04,-472.2"/>
+<text xml:space="preserve" text-anchor="middle" x="964" y="-457.4" font-family="Arial" font-size="12.00" fill="#152b44">Accord</text>
+<text xml:space="preserve" text-anchor="middle" x="964" y="-443" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="964" y="-428.6" font-family="Arial" font-size="12.00" fill="#152b44">String qualiteSignataire</text>
+<text xml:space="preserve" text-anchor="middle" x="964" y="-414.2" font-family="Arial" font-size="12.00" fill="#152b44">String resultat</text>
+<text xml:space="preserve" text-anchor="middle" x="964" y="-399.8" font-family="Arial" font-size="12.00" fill="#152b44">DateTime signeLe</text>
+</g>
+<!-- Utilisateur&#45;&gt;Accord -->
+<g id="edge25" class="edge">
+<title>Utilisateur&#45;&gt;Accord</title>
+<path fill="none" stroke="#526987" d="M989.32,-1366.57C998.61,-1337.64 1009,-1297.08 1009,-1260.4 1009,-1260.4 1009,-1260.4 1009,-611.2 1009,-562.27 992.82,-508.02 979.87,-472.42"/>
+<text xml:space="preserve" text-anchor="middle" x="1030.68" y="-902.4" font-family="Arial" font-size="10.00" fill="#213950">signataire</text>
+<text xml:space="preserve" text-anchor="middle" x="972.36" y="-475.42" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="986.54" y="-1369.57" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Inscription -->
+<g id="node20" class="node">
+<title>Inscription</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M856.69,-465C856.69,-465 743.31,-465 743.31,-465 737.31,-465 731.31,-459 731.31,-453 731.31,-453 731.31,-411.4 731.31,-411.4 731.31,-405.4 737.31,-399.4 743.31,-399.4 743.31,-399.4 856.69,-399.4 856.69,-399.4 862.69,-399.4 868.69,-405.4 868.69,-411.4 868.69,-411.4 868.69,-453 868.69,-453 868.69,-459 862.69,-465 856.69,-465"/>
+<text xml:space="preserve" text-anchor="middle" x="800" y="-450.2" font-family="Arial" font-size="12.00" fill="#152b44">Inscription</text>
+<text xml:space="preserve" text-anchor="middle" x="800" y="-435.8" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="800" y="-421.4" font-family="Arial" font-size="12.00" fill="#152b44">DateTime confirmeeLe</text>
+<text xml:space="preserve" text-anchor="middle" x="800" y="-407" font-family="Arial" font-size="12.00" fill="#152b44">String referenceCarte</text>
+</g>
+<!-- Utilisateur&#45;&gt;Inscription -->
+<g id="edge27" class="edge">
+<title>Utilisateur&#45;&gt;Inscription</title>
+<path fill="none" stroke="#526987" d="M960.68,-1366.57C951.39,-1337.64 941,-1297.08 941,-1260.4 941,-1260.4 941,-1260.4 941,-611.2 941,-569.18 923.08,-560.71 898,-527 881.13,-504.33 858.54,-482.3 839.3,-465.29"/>
+<text xml:space="preserve" text-anchor="middle" x="960.17" y="-902.4" font-family="Arial" font-size="10.00" fill="#213950">confirme</text>
+<text xml:space="preserve" text-anchor="middle" x="831.8" y="-468.29" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="957.9" y="-1369.57" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- ControlePiece -->
+<g id="node24" class="node">
+<title>ControlePiece</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1012.35,-94.4C1012.35,-94.4 881.65,-94.4 881.65,-94.4 875.65,-94.4 869.65,-88.4 869.65,-82.4 869.65,-82.4 869.65,-12 869.65,-12 869.65,-6 875.65,0 881.65,0 881.65,0 1012.35,0 1012.35,0 1018.35,0 1024.35,-6 1024.35,-12 1024.35,-12 1024.35,-82.4 1024.35,-82.4 1024.35,-88.4 1018.35,-94.4 1012.35,-94.4"/>
+<text xml:space="preserve" text-anchor="middle" x="947" y="-79.6" font-family="Arial" font-size="12.00" fill="#152b44">ControlePiece</text>
+<text xml:space="preserve" text-anchor="middle" x="947" y="-65.2" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="947" y="-50.8" font-family="Arial" font-size="12.00" fill="#152b44">String verdict</text>
+<text xml:space="preserve" text-anchor="middle" x="947" y="-36.4" font-family="Arial" font-size="12.00" fill="#152b44">String motif</text>
+<text xml:space="preserve" text-anchor="middle" x="947" y="-22" font-family="Arial" font-size="12.00" fill="#152b44">DateTime controleLe</text>
+<text xml:space="preserve" text-anchor="middle" x="947" y="-7.6" font-family="Arial" font-size="12.00" fill="#152b44">DateTime limiteCorrection</text>
+</g>
+<!-- Utilisateur&#45;&gt;ControlePiece -->
+<g id="edge33" class="edge">
+<title>Utilisateur&#45;&gt;ControlePiece</title>
+<path fill="none" stroke="#526987" d="M1061.66,-1375.88C1110.57,-1352.9 1162,-1315.61 1162,-1260.4 1162,-1260.4 1162,-1260.4 1162,-222.4 1162,-149.38 1086.2,-101.66 1024.62,-74.94"/>
+<text xml:space="preserve" text-anchor="middle" x="1186.45" y="-688.4" font-family="Arial" font-size="10.00" fill="#213950">vérificateur</text>
+<text xml:space="preserve" text-anchor="middle" x="1017.12" y="-77.94" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="1058.88" y="-1378.88" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- EvenementAudit -->
+<g id="node25" class="node">
+<title>EvenementAudit</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M694.71,-501C694.71,-501 561.29,-501 561.29,-501 555.29,-501 549.29,-495 549.29,-489 549.29,-489 549.29,-375.4 549.29,-375.4 549.29,-369.4 555.29,-363.4 561.29,-363.4 561.29,-363.4 694.71,-363.4 694.71,-363.4 700.71,-363.4 706.71,-369.4 706.71,-375.4 706.71,-375.4 706.71,-489 706.71,-489 706.71,-495 700.71,-501 694.71,-501"/>
+<text xml:space="preserve" text-anchor="middle" x="628" y="-486.2" font-family="Arial" font-size="12.00" fill="#152b44">EvenementAudit</text>
+<text xml:space="preserve" text-anchor="middle" x="628" y="-471.8" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="628" y="-457.4" font-family="Arial" font-size="12.00" fill="#152b44">String action</text>
+<text xml:space="preserve" text-anchor="middle" x="628" y="-443" font-family="Arial" font-size="12.00" fill="#152b44">String typeObjet</text>
+<text xml:space="preserve" text-anchor="middle" x="628" y="-428.6" font-family="Arial" font-size="12.00" fill="#152b44">UUID objetId</text>
+<text xml:space="preserve" text-anchor="middle" x="628" y="-414.2" font-family="Arial" font-size="12.00" fill="#152b44">DateTime horodatage</text>
+<text xml:space="preserve" text-anchor="middle" x="628" y="-399.8" font-family="Arial" font-size="12.00" fill="#152b44">EtatCandidature etatAvant</text>
+<text xml:space="preserve" text-anchor="middle" x="628" y="-385.4" font-family="Arial" font-size="12.00" fill="#152b44">EtatCandidature etatApres</text>
+<text xml:space="preserve" text-anchor="middle" x="628" y="-371" font-family="Arial" font-size="12.00" fill="#152b44">String motif</text>
+</g>
+<!-- Utilisateur&#45;&gt;EvenementAudit -->
+<g id="edge35" class="edge">
+<title>Utilisateur&#45;&gt;EvenementAudit</title>
+<path fill="none" stroke="#526987" d="M932.13,-1366.55C907.33,-1339.48 881,-1301.13 881,-1260.4 881,-1260.4 881,-1260.4 881,-690.4 881,-633.48 890.24,-609.7 855,-565 813.64,-512.54 776.29,-535.35 719,-501 715.03,-498.62 711.02,-496.1 707.01,-493.5"/>
+<text xml:space="preserve" text-anchor="middle" x="894.9" y="-902.4" font-family="Arial" font-size="10.00" fill="#213950">acteur</text>
+<text xml:space="preserve" text-anchor="middle" x="699.51" y="-496.5" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="923.79" y="-1369.55" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+</g>
+<!-- Notification -->
+<g id="node26" class="node">
+<title>Notification</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1057.02,-299.4C1057.02,-299.4 952.98,-299.4 952.98,-299.4 946.98,-299.4 940.98,-293.4 940.98,-287.4 940.98,-287.4 940.98,-159.4 940.98,-159.4 940.98,-153.4 946.98,-147.4 952.98,-147.4 952.98,-147.4 1057.02,-147.4 1057.02,-147.4 1063.02,-147.4 1069.02,-153.4 1069.02,-159.4 1069.02,-159.4 1069.02,-287.4 1069.02,-287.4 1069.02,-293.4 1063.02,-299.4 1057.02,-299.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1005" y="-284.6" font-family="Arial" font-size="12.00" fill="#152b44">Notification</text>
+<text xml:space="preserve" text-anchor="middle" x="1005" y="-270.2" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="1005" y="-255.8" font-family="Arial" font-size="12.00" fill="#152b44">String categorie</text>
+<text xml:space="preserve" text-anchor="middle" x="1005" y="-241.4" font-family="Arial" font-size="12.00" fill="#152b44">String message</text>
+<text xml:space="preserve" text-anchor="middle" x="1005" y="-227" font-family="Arial" font-size="12.00" fill="#152b44">String lienAction</text>
+<text xml:space="preserve" text-anchor="middle" x="1005" y="-212.6" font-family="Arial" font-size="12.00" fill="#152b44">DateTime echeance</text>
+<text xml:space="preserve" text-anchor="middle" x="1005" y="-198.2" font-family="Arial" font-size="12.00" fill="#152b44">DateTime lueLe</text>
+<text xml:space="preserve" text-anchor="middle" x="1005" y="-183.8" font-family="Arial" font-size="12.00" fill="#152b44">String etatTraitement</text>
+<text xml:space="preserve" text-anchor="middle" x="1005" y="-169.4" font-family="Arial" font-size="12.00" fill="#152b44">DateTime creeeLe</text>
+<text xml:space="preserve" text-anchor="middle" x="1005" y="-155" font-family="Arial" font-size="12.00" fill="#152b44">DateTime traiteeLe</text>
+</g>
+<!-- Utilisateur&#45;&gt;Notification -->
+<g id="edge37" class="edge">
+<title>Utilisateur&#45;&gt;Notification</title>
+<path fill="none" stroke="#526987" d="M1019.53,-1366.51C1045.03,-1339.56 1072,-1301.37 1072,-1260.4 1072,-1260.4 1072,-1260.4 1072,-431.2 1072,-386.1 1057.4,-338.04 1041.83,-299.62"/>
+<text xml:space="preserve" text-anchor="middle" x="1097.85" y="-767.6" font-family="Arial" font-size="10.00" fill="#213950">destinataire</text>
+<text xml:space="preserve" text-anchor="middle" x="1034.33" y="-302.62" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="1016.74" y="-1369.51" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Candidature -->
+<g id="node14" class="node">
+<title>Candidature</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M531.69,-817.8C531.69,-817.8 426.31,-817.8 426.31,-817.8 420.31,-817.8 414.31,-811.8 414.31,-805.8 414.31,-805.8 414.31,-735.4 414.31,-735.4 414.31,-729.4 420.31,-723.4 426.31,-723.4 426.31,-723.4 531.69,-723.4 531.69,-723.4 537.69,-723.4 543.69,-729.4 543.69,-735.4 543.69,-735.4 543.69,-805.8 543.69,-805.8 543.69,-811.8 537.69,-817.8 531.69,-817.8"/>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-803" font-family="Arial" font-size="12.00" fill="#152b44">Candidature</text>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-788.6" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-774.2" font-family="Arial" font-size="12.00" fill="#152b44">EtatCandidature etat</text>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-759.8" font-family="Arial" font-size="12.00" fill="#152b44">DateTime creeLe</text>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-745.4" font-family="Arial" font-size="12.00" fill="#152b44">DateTime soumiseLe</text>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-731" font-family="Arial" font-size="12.00" fill="#152b44">Integer version</text>
+</g>
+<!-- ProfilCandidat&#45;&gt;Candidature -->
+<g id="edge15" class="edge">
+<title>ProfilCandidat&#45;&gt;Candidature</title>
+<path fill="none" stroke="#526987" d="M742.43,-1098.79C687.66,-1030.76 575.27,-891.17 516.57,-818.27"/>
+<text xml:space="preserve" text-anchor="middle" x="509.07" y="-821.27" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="739.65" y="-1101.79" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Sujet -->
+<g id="node11" class="node">
+<title>Sujet</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M536.37,-1073C536.37,-1073 421.63,-1073 421.63,-1073 415.63,-1073 409.63,-1067 409.63,-1061 409.63,-1061 409.63,-1005 409.63,-1005 409.63,-999 415.63,-993 421.63,-993 421.63,-993 536.37,-993 536.37,-993 542.37,-993 548.37,-999 548.37,-1005 548.37,-1005 548.37,-1061 548.37,-1061 548.37,-1067 542.37,-1073 536.37,-1073"/>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-1058.2" font-family="Arial" font-size="12.00" fill="#152b44">Sujet</text>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-1043.8" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-1029.4" font-family="Arial" font-size="12.00" fill="#152b44">String titre</text>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-1015" font-family="Arial" font-size="12.00" fill="#152b44">String description</text>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-1000.6" font-family="Arial" font-size="12.00" fill="#152b44">String statutPublication</text>
+</g>
+<!-- ProfilEnseignant&#45;&gt;Sujet -->
+<g id="edge10" class="edge">
+<title>ProfilEnseignant&#45;&gt;Sujet</title>
+<path fill="none" stroke="#526987" d="M572.21,-1226.14C569.22,-1192.66 561.25,-1139.62 540,-1099 535.27,-1089.95 528.92,-1081.24 522.1,-1073.31"/>
+<text xml:space="preserve" text-anchor="middle" x="605.73" y="-1136" font-family="Arial" font-size="10.00" fill="#213950">directeur de thèse</text>
+<text xml:space="preserve" text-anchor="middle" x="514.6" y="-1076.31" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="569.43" y="-1229.14" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- ProfilEnseignant&#45;&gt;Sujet -->
+<g id="edge11" class="edge">
+<title>ProfilEnseignant&#45;&gt;Sujet</title>
+<path fill="none" stroke="#526987" d="M536.46,-1226.33C527.86,-1219.19 518.69,-1211.74 510,-1205 494.4,-1192.89 482.96,-1196.58 473.96,-1179 457.27,-1146.37 461.18,-1103.99 467.66,-1073.49"/>
+<text xml:space="preserve" text-anchor="middle" x="503.98" y="-1136" font-family="Arial" font-size="10.00" fill="#213950">coencadrants</text>
+<text xml:space="preserve" text-anchor="middle" x="460.16" y="-1076.49" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="528.95" y="-1229.33" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+</g>
+<!-- Role -->
+<g id="node4" class="node">
+<title>Role</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1377.35,-1425.2C1377.35,-1425.2 1324.65,-1425.2 1324.65,-1425.2 1318.65,-1425.2 1312.65,-1419.2 1312.65,-1413.2 1312.65,-1413.2 1312.65,-1400.4 1312.65,-1400.4 1312.65,-1394.4 1318.65,-1388.4 1324.65,-1388.4 1324.65,-1388.4 1377.35,-1388.4 1377.35,-1388.4 1383.35,-1388.4 1389.35,-1394.4 1389.35,-1400.4 1389.35,-1400.4 1389.35,-1413.2 1389.35,-1413.2 1389.35,-1419.2 1383.35,-1425.2 1377.35,-1425.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1351" y="-1410.4" font-family="Arial" font-size="12.00" fill="#152b44">Role</text>
+<text xml:space="preserve" text-anchor="middle" x="1351" y="-1396" font-family="Arial" font-size="12.00" fill="#152b44">String code</text>
+</g>
+<!-- Privilege -->
+<g id="node5" class="node">
+<title>Privilege</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M1415.35,-1277.8C1415.35,-1277.8 1362.65,-1277.8 1362.65,-1277.8 1356.65,-1277.8 1350.65,-1271.8 1350.65,-1265.8 1350.65,-1265.8 1350.65,-1253 1350.65,-1253 1350.65,-1247 1356.65,-1241 1362.65,-1241 1362.65,-1241 1415.35,-1241 1415.35,-1241 1421.35,-1241 1427.35,-1247 1427.35,-1253 1427.35,-1253 1427.35,-1265.8 1427.35,-1265.8 1427.35,-1271.8 1421.35,-1277.8 1415.35,-1277.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1389" y="-1263" font-family="Arial" font-size="12.00" fill="#152b44">Privilege</text>
+<text xml:space="preserve" text-anchor="middle" x="1389" y="-1248.6" font-family="Arial" font-size="12.00" fill="#152b44">String code</text>
+</g>
+<!-- Role&#45;&gt;Privilege -->
+<g id="edge5" class="edge">
+<title>Role&#45;&gt;Privilege</title>
+<path fill="none" stroke="#526987" d="M1355.66,-1387.97C1362.99,-1359.91 1377.14,-1305.79 1384.42,-1277.92"/>
+<text xml:space="preserve" text-anchor="middle" x="1376.92" y="-1280.92" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="1348.15" y="-1390.97" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+</g>
+<!-- Role&#45;&gt;AttributionRole -->
+<g id="edge4" class="edge">
+<title>Role&#45;&gt;AttributionRole</title>
+<path fill="none" stroke="#526987" d="M1340.21,-1387.97C1329.1,-1369.62 1311.25,-1340.12 1295.5,-1314.1"/>
+<text xml:space="preserve" text-anchor="middle" x="1288" y="-1317.1" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="1337.43" y="-1390.97" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- StructureRecherche -->
+<g id="node7" class="node">
+<title>StructureRecherche</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M485.36,-1285C485.36,-1285 386.64,-1285 386.64,-1285 380.64,-1285 374.64,-1279 374.64,-1273 374.64,-1273 374.64,-1245.8 374.64,-1245.8 374.64,-1239.8 380.64,-1233.8 386.64,-1233.8 386.64,-1233.8 485.36,-1233.8 485.36,-1233.8 491.36,-1233.8 497.36,-1239.8 497.36,-1245.8 497.36,-1245.8 497.36,-1273 497.36,-1273 497.36,-1279 491.36,-1285 485.36,-1285"/>
+<text xml:space="preserve" text-anchor="middle" x="436" y="-1270.2" font-family="Arial" font-size="12.00" fill="#152b44">StructureRecherche</text>
+<text xml:space="preserve" text-anchor="middle" x="436" y="-1255.8" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="436" y="-1241.4" font-family="Arial" font-size="12.00" fill="#152b44">String nom</text>
+</g>
+<!-- StructureRecherche&#45;&gt;Sujet -->
+<g id="edge9" class="edge">
+<title>StructureRecherche&#45;&gt;Sujet</title>
+<path fill="none" stroke="#526987" d="M436.55,-1233.46C437.73,-1201.77 441.43,-1145.59 453,-1099 455.11,-1090.51 458.09,-1081.65 461.28,-1073.3"/>
+<text xml:space="preserve" text-anchor="middle" x="453.78" y="-1076.3" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="433.77" y="-1236.46" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- CentreDoctoral -->
+<g id="node8" class="node">
+<title>CentreDoctoral</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M640.35,-1432.4C640.35,-1432.4 567.65,-1432.4 567.65,-1432.4 561.65,-1432.4 555.65,-1426.4 555.65,-1420.4 555.65,-1420.4 555.65,-1393.2 555.65,-1393.2 555.65,-1387.2 561.65,-1381.2 567.65,-1381.2 567.65,-1381.2 640.35,-1381.2 640.35,-1381.2 646.35,-1381.2 652.35,-1387.2 652.35,-1393.2 652.35,-1393.2 652.35,-1420.4 652.35,-1420.4 652.35,-1426.4 646.35,-1432.4 640.35,-1432.4"/>
+<text xml:space="preserve" text-anchor="middle" x="604" y="-1417.6" font-family="Arial" font-size="12.00" fill="#152b44">CentreDoctoral</text>
+<text xml:space="preserve" text-anchor="middle" x="604" y="-1403.2" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="604" y="-1388.8" font-family="Arial" font-size="12.00" fill="#152b44">String nom</text>
+</g>
+<!-- FormationDoctorale -->
+<g id="node10" class="node">
+<title>FormationDoctorale</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M759.69,-1285C759.69,-1285 662.31,-1285 662.31,-1285 656.31,-1285 650.31,-1279 650.31,-1273 650.31,-1273 650.31,-1245.8 650.31,-1245.8 650.31,-1239.8 656.31,-1233.8 662.31,-1233.8 662.31,-1233.8 759.69,-1233.8 759.69,-1233.8 765.69,-1233.8 771.69,-1239.8 771.69,-1245.8 771.69,-1245.8 771.69,-1273 771.69,-1273 771.69,-1279 765.69,-1285 759.69,-1285"/>
+<text xml:space="preserve" text-anchor="middle" x="711" y="-1270.2" font-family="Arial" font-size="12.00" fill="#152b44">FormationDoctorale</text>
+<text xml:space="preserve" text-anchor="middle" x="711" y="-1255.8" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="711" y="-1241.4" font-family="Arial" font-size="12.00" fill="#152b44">String libelle</text>
+</g>
+<!-- CentreDoctoral&#45;&gt;FormationDoctorale -->
+<g id="edge6" class="edge">
+<title>CentreDoctoral&#45;&gt;FormationDoctorale</title>
+<path fill="none" stroke="#526987" d="M622.39,-1380.8C642.11,-1354.01 673.22,-1311.74 692.85,-1285.07"/>
+<text xml:space="preserve" text-anchor="middle" x="685.34" y="-1288.07" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="619.61" y="-1383.8" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Etablissement -->
+<g id="node9" class="node">
+<title>Etablissement</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M756.68,-1432.4C756.68,-1432.4 689.32,-1432.4 689.32,-1432.4 683.32,-1432.4 677.32,-1426.4 677.32,-1420.4 677.32,-1420.4 677.32,-1393.2 677.32,-1393.2 677.32,-1387.2 683.32,-1381.2 689.32,-1381.2 689.32,-1381.2 756.68,-1381.2 756.68,-1381.2 762.68,-1381.2 768.68,-1387.2 768.68,-1393.2 768.68,-1393.2 768.68,-1420.4 768.68,-1420.4 768.68,-1426.4 762.68,-1432.4 756.68,-1432.4"/>
+<text xml:space="preserve" text-anchor="middle" x="723" y="-1417.6" font-family="Arial" font-size="12.00" fill="#152b44">Etablissement</text>
+<text xml:space="preserve" text-anchor="middle" x="723" y="-1403.2" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="723" y="-1388.8" font-family="Arial" font-size="12.00" fill="#152b44">String nom</text>
+</g>
+<!-- Etablissement&#45;&gt;FormationDoctorale -->
+<g id="edge7" class="edge">
+<title>Etablissement&#45;&gt;FormationDoctorale</title>
+<path fill="none" stroke="#526987" d="M720.94,-1380.8C718.73,-1354.01 715.24,-1311.74 713.04,-1285.07"/>
+<text xml:space="preserve" text-anchor="middle" x="705.53" y="-1288.07" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="718.16" y="-1383.8" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- FormationDoctorale&#45;&gt;Sujet -->
+<g id="edge8" class="edge">
+<title>FormationDoctorale&#45;&gt;Sujet</title>
+<path fill="none" stroke="#526987" d="M702.69,-1233.39C688.44,-1191.06 659.91,-1108.89 650,-1099 622.8,-1071.86 583.11,-1055.85 548.81,-1046.52"/>
+<text xml:space="preserve" text-anchor="middle" x="541.31" y="-1049.52" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="699.91" y="-1236.39" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Sujet&#45;&gt;Candidature -->
+<g id="edge16" class="edge">
+<title>Sujet&#45;&gt;Candidature</title>
+<path fill="none" stroke="#526987" d="M479,-992.73C479,-945.99 479,-868.01 479,-818.24"/>
+<text xml:space="preserve" text-anchor="middle" x="471.5" y="-821.24" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="476.22" y="-995.73" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Campagne -->
+<g id="node12" class="node">
+<title>Campagne</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M164.04,-1299.4C164.04,-1299.4 31.96,-1299.4 31.96,-1299.4 25.96,-1299.4 19.96,-1293.4 19.96,-1287.4 19.96,-1287.4 19.96,-1231.4 19.96,-1231.4 19.96,-1225.4 25.96,-1219.4 31.96,-1219.4 31.96,-1219.4 164.04,-1219.4 164.04,-1219.4 170.04,-1219.4 176.04,-1225.4 176.04,-1231.4 176.04,-1231.4 176.04,-1287.4 176.04,-1287.4 176.04,-1293.4 170.04,-1299.4 164.04,-1299.4"/>
+<text xml:space="preserve" text-anchor="middle" x="98" y="-1284.6" font-family="Arial" font-size="12.00" fill="#152b44">Campagne</text>
+<text xml:space="preserve" text-anchor="middle" x="98" y="-1270.2" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="98" y="-1255.8" font-family="Arial" font-size="12.00" fill="#152b44">String anneeUniversitaire</text>
+<text xml:space="preserve" text-anchor="middle" x="98" y="-1241.4" font-family="Arial" font-size="12.00" fill="#152b44">String fuseauHoraire</text>
+<text xml:space="preserve" text-anchor="middle" x="98" y="-1227" font-family="Arial" font-size="12.00" fill="#152b44">Integer limiteCandidatures</text>
+</g>
+<!-- Campagne&#45;&gt;Sujet -->
+<g id="edge12" class="edge">
+<title>Campagne&#45;&gt;Sujet</title>
+<path fill="none" stroke="#526987" d="M143.38,-1219.16C185.31,-1184.3 250.4,-1133.66 313,-1099 343.33,-1082.21 378.89,-1067.67 409.31,-1056.63"/>
+<text xml:space="preserve" text-anchor="middle" x="401.8" y="-1059.63" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="140.6" y="-1222.16" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- FenetreEtape -->
+<g id="node13" class="node">
+<title>FenetreEtape</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M202.03,-472.2C202.03,-472.2 91.97,-472.2 91.97,-472.2 85.97,-472.2 79.97,-466.2 79.97,-460.2 79.97,-460.2 79.97,-404.2 79.97,-404.2 79.97,-398.2 85.97,-392.2 91.97,-392.2 91.97,-392.2 202.03,-392.2 202.03,-392.2 208.03,-392.2 214.03,-398.2 214.03,-404.2 214.03,-404.2 214.03,-460.2 214.03,-460.2 214.03,-466.2 208.03,-472.2 202.03,-472.2"/>
+<text xml:space="preserve" text-anchor="middle" x="147" y="-457.4" font-family="Arial" font-size="12.00" fill="#152b44">FenetreEtape</text>
+<text xml:space="preserve" text-anchor="middle" x="147" y="-443" font-family="Arial" font-size="12.00" fill="#152b44">String codeEtape</text>
+<text xml:space="preserve" text-anchor="middle" x="147" y="-428.6" font-family="Arial" font-size="12.00" fill="#152b44">String publicConcerne</text>
+<text xml:space="preserve" text-anchor="middle" x="147" y="-414.2" font-family="Arial" font-size="12.00" fill="#152b44">DateTime ouverture</text>
+<text xml:space="preserve" text-anchor="middle" x="147" y="-399.8" font-family="Arial" font-size="12.00" fill="#152b44">DateTime cloture</text>
+</g>
+<!-- Campagne&#45;&gt;FenetreEtape -->
+<g id="edge13" class="edge">
+<title>Campagne&#45;&gt;FenetreEtape</title>
+<path fill="none" stroke="#526987" d="M61.74,-1208C33.83,-1164.21 0,-1097.94 0,-1034 0,-1034 0,-1034 0,-611.2 0,-553.49 46.51,-504.38 87.21,-472.46"/>
+<polygon fill="#526987" stroke="#526987" points="61.81,-1208.1 68.44,-1210.94 68.37,-1218.15 61.74,-1215.31 61.81,-1208.1"/>
+<text xml:space="preserve" text-anchor="middle" x="79.7" y="-475.46" font-family="Arial" font-size="10.00" fill="#213950">1..*</text>
+<text xml:space="preserve" text-anchor="middle" x="66.08" y="-1221.9" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- ExigencePiece -->
+<g id="node21" class="node">
+<title>ExigencePiece</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M168.38,-967C168.38,-967 29.62,-967 29.62,-967 23.62,-967 17.62,-961 17.62,-955 17.62,-955 17.62,-855.8 17.62,-855.8 17.62,-849.8 23.62,-843.8 29.62,-843.8 29.62,-843.8 168.38,-843.8 168.38,-843.8 174.38,-843.8 180.38,-849.8 180.38,-855.8 180.38,-855.8 180.38,-955 180.38,-955 180.38,-961 174.38,-967 168.38,-967"/>
+<text xml:space="preserve" text-anchor="middle" x="99" y="-952.2" font-family="Arial" font-size="12.00" fill="#152b44">ExigencePiece</text>
+<text xml:space="preserve" text-anchor="middle" x="99" y="-937.8" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="99" y="-923.4" font-family="Arial" font-size="12.00" fill="#152b44">String typePiece</text>
+<text xml:space="preserve" text-anchor="middle" x="99" y="-909" font-family="Arial" font-size="12.00" fill="#152b44">String phase</text>
+<text xml:space="preserve" text-anchor="middle" x="99" y="-894.6" font-family="Arial" font-size="12.00" fill="#152b44">String formatsAutorises</text>
+<text xml:space="preserve" text-anchor="middle" x="99" y="-880.2" font-family="Arial" font-size="12.00" fill="#152b44">Integer tailleMaxOctets</text>
+<text xml:space="preserve" text-anchor="middle" x="99" y="-865.8" font-family="Arial" font-size="12.00" fill="#152b44">String conditionApplicabilite</text>
+<text xml:space="preserve" text-anchor="middle" x="99" y="-851.4" font-family="Arial" font-size="12.00" fill="#152b44">String critereContenu</text>
+</g>
+<!-- Campagne&#45;&gt;ExigencePiece -->
+<g id="edge14" class="edge">
+<title>Campagne&#45;&gt;ExigencePiece</title>
+<path fill="none" stroke="#526987" d="M98.15,-1206.13C98.33,-1142.35 98.64,-1034.7 98.83,-967.26"/>
+<polygon fill="#526987" stroke="#526987" points="98.15,-1206.14 102.13,-1212.16 98.11,-1218.14 94.13,-1212.13 98.15,-1206.14"/>
+<text xml:space="preserve" text-anchor="middle" x="91.32" y="-970.26" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="95.33" y="-1222.05" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Entretien -->
+<g id="node16" class="node">
+<title>Entretien</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M205.69,-652.2C205.69,-652.2 102.31,-652.2 102.31,-652.2 96.31,-652.2 90.31,-646.2 90.31,-640.2 90.31,-640.2 90.31,-584.2 90.31,-584.2 90.31,-578.2 96.31,-572.2 102.31,-572.2 102.31,-572.2 205.69,-572.2 205.69,-572.2 211.69,-572.2 217.69,-578.2 217.69,-584.2 217.69,-584.2 217.69,-640.2 217.69,-640.2 217.69,-646.2 211.69,-652.2 205.69,-652.2"/>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-637.4" font-family="Arial" font-size="12.00" fill="#152b44">Entretien</text>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-623" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-608.6" font-family="Arial" font-size="12.00" fill="#152b44">DateTime dateHeure</text>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-594.2" font-family="Arial" font-size="12.00" fill="#152b44">String lieuOuLien</text>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-579.8" font-family="Arial" font-size="12.00" fill="#152b44">String compteRendu</text>
+</g>
+<!-- Candidature&#45;&gt;Entretien -->
+<g id="edge18" class="edge">
+<title>Candidature&#45;&gt;Entretien</title>
+<path fill="none" stroke="#526987" d="M413.95,-743.53C363.06,-722.49 290.96,-691.25 230,-659.4 225.89,-657.26 221.71,-654.98 217.51,-652.63"/>
+<text xml:space="preserve" text-anchor="middle" x="209.17" y="-655.63" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+<text xml:space="preserve" text-anchor="middle" x="411.17" y="-746.53" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- DecisionSelection -->
+<g id="node17" class="node">
+<title>DecisionSelection</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M371.36,-659.4C371.36,-659.4 254.64,-659.4 254.64,-659.4 248.64,-659.4 242.64,-653.4 242.64,-647.4 242.64,-647.4 242.64,-577 242.64,-577 242.64,-571 248.64,-565 254.64,-565 254.64,-565 371.36,-565 371.36,-565 377.36,-565 383.36,-571 383.36,-577 383.36,-577 383.36,-647.4 383.36,-647.4 383.36,-653.4 377.36,-659.4 371.36,-659.4"/>
+<text xml:space="preserve" text-anchor="middle" x="313" y="-644.6" font-family="Arial" font-size="12.00" fill="#152b44">DecisionSelection</text>
+<text xml:space="preserve" text-anchor="middle" x="313" y="-630.2" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="313" y="-615.8" font-family="Arial" font-size="12.00" fill="#152b44">String resultat</text>
+<text xml:space="preserve" text-anchor="middle" x="313" y="-601.4" font-family="Arial" font-size="12.00" fill="#152b44">String motif</text>
+<text xml:space="preserve" text-anchor="middle" x="313" y="-587" font-family="Arial" font-size="12.00" fill="#152b44">Integer rang</text>
+<text xml:space="preserve" text-anchor="middle" x="313" y="-572.6" font-family="Arial" font-size="12.00" fill="#152b44">DateTime dateDecision</text>
+</g>
+<!-- Candidature&#45;&gt;DecisionSelection -->
+<g id="edge22" class="edge">
+<title>Candidature&#45;&gt;DecisionSelection</title>
+<path fill="none" stroke="#526987" d="M419.83,-714.17C413.8,-708.51 407.78,-702.84 402,-697.4 388.99,-685.15 374.94,-671.87 361.93,-659.56"/>
+<polygon fill="#526987" stroke="#526987" points="419.86,-714.2 426.97,-715.39 428.61,-722.41 421.5,-721.22 419.86,-714.2"/>
+<text xml:space="preserve" text-anchor="middle" x="354.42" y="-662.56" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="426.48" y="-726.03" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- DossierInscription -->
+<g id="node18" class="node">
+<title>DossierInscription</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M830.7,-645C830.7,-645 725.3,-645 725.3,-645 719.3,-645 713.3,-639 713.3,-633 713.3,-633 713.3,-591.4 713.3,-591.4 713.3,-585.4 719.3,-579.4 725.3,-579.4 725.3,-579.4 830.7,-579.4 830.7,-579.4 836.7,-579.4 842.7,-585.4 842.7,-591.4 842.7,-591.4 842.7,-633 842.7,-633 842.7,-639 836.7,-645 830.7,-645"/>
+<text xml:space="preserve" text-anchor="middle" x="778" y="-630.2" font-family="Arial" font-size="12.00" fill="#152b44">DossierInscription</text>
+<text xml:space="preserve" text-anchor="middle" x="778" y="-615.8" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="778" y="-601.4" font-family="Arial" font-size="12.00" fill="#152b44">DateTime dateDepot</text>
+<text xml:space="preserve" text-anchor="middle" x="778" y="-587" font-family="Arial" font-size="12.00" fill="#152b44">String referenceRecu</text>
+</g>
+<!-- Candidature&#45;&gt;DossierInscription -->
+<g id="edge23" class="edge">
+<title>Candidature&#45;&gt;DossierInscription</title>
+<path fill="none" stroke="#526987" d="M556.62,-752.83C599.28,-741.39 651.91,-723.51 694,-697.4 716.28,-683.58 737.13,-662.74 752.48,-645.26"/>
+<polygon fill="#526987" stroke="#526987" points="556.5,-752.86 551.7,-758.24 544.89,-755.88 549.69,-750.5 556.5,-752.86"/>
+<text xml:space="preserve" text-anchor="middle" x="744.14" y="-648.26" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+<text xml:space="preserve" text-anchor="middle" x="541.23" y="-759.1" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Piece -->
+<g id="node22" class="node">
+<title>Piece</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M495.36,-457.8C495.36,-457.8 380.64,-457.8 380.64,-457.8 374.64,-457.8 368.64,-451.8 368.64,-445.8 368.64,-445.8 368.64,-418.6 368.64,-418.6 368.64,-412.6 374.64,-406.6 380.64,-406.6 380.64,-406.6 495.36,-406.6 495.36,-406.6 501.36,-406.6 507.36,-412.6 507.36,-418.6 507.36,-418.6 507.36,-445.8 507.36,-445.8 507.36,-451.8 501.36,-457.8 495.36,-457.8"/>
+<text xml:space="preserve" text-anchor="middle" x="438" y="-443" font-family="Arial" font-size="12.00" fill="#152b44">Piece</text>
+<text xml:space="preserve" text-anchor="middle" x="438" y="-428.6" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="438" y="-414.2" font-family="Arial" font-size="12.00" fill="#152b44">String statutConformite</text>
+</g>
+<!-- Candidature&#45;&gt;Piece -->
+<g id="edge28" class="edge">
+<title>Candidature&#45;&gt;Piece</title>
+<path fill="none" stroke="#526987" d="M459.06,-710.76C454.27,-694.32 449.75,-676.32 447,-659.4 435.24,-587.05 435.84,-500.07 437.03,-458.17"/>
+<polygon fill="#526987" stroke="#526987" points="459.02,-710.63 464.58,-715.22 462.48,-722.12 456.92,-717.53 459.02,-710.63"/>
+<text xml:space="preserve" text-anchor="middle" x="429.52" y="-461.17" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="459.96" y="-725.99" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- Candidature&#45;&gt;EvenementAudit -->
+<g id="edge34" class="edge">
+<title>Candidature&#45;&gt;EvenementAudit</title>
+<path fill="none" stroke="#526987" d="M543.98,-745.99C581.99,-728.43 626.75,-700.35 649,-659.4 675.23,-611.15 666.71,-548.46 653.48,-501.32"/>
+<text xml:space="preserve" text-anchor="middle" x="645.98" y="-504.32" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="541.2" y="-748.99" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- SuiviCandidature -->
+<g id="node27" class="node">
+<title>SuiviCandidature</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M624.71,-659.4C624.71,-659.4 471.29,-659.4 471.29,-659.4 465.29,-659.4 459.29,-653.4 459.29,-647.4 459.29,-647.4 459.29,-577 459.29,-577 459.29,-571 465.29,-565 471.29,-565 471.29,-565 624.71,-565 624.71,-565 630.71,-565 636.71,-571 636.71,-577 636.71,-577 636.71,-647.4 636.71,-647.4 636.71,-653.4 630.71,-659.4 624.71,-659.4"/>
+<text xml:space="preserve" text-anchor="middle" x="548" y="-644.6" font-family="Arial" font-size="12.00" fill="#152b44">SuiviCandidature</text>
+<text xml:space="preserve" text-anchor="middle" x="548" y="-630.2" font-family="Arial" font-size="12.00" fill="#152b44">String etapeCourante</text>
+<text xml:space="preserve" text-anchor="middle" x="548" y="-615.8" font-family="Arial" font-size="12.00" fill="#152b44">String etapesTerminees</text>
+<text xml:space="preserve" text-anchor="middle" x="548" y="-601.4" font-family="Arial" font-size="12.00" fill="#152b44">String etapesRestantes</text>
+<text xml:space="preserve" text-anchor="middle" x="548" y="-587" font-family="Arial" font-size="12.00" fill="#152b44">String prochaineAction</text>
+<text xml:space="preserve" text-anchor="middle" x="548" y="-572.6" font-family="Arial" font-size="12.00" fill="#152b44">DateTime prochaineEcheance</text>
+</g>
+<!-- Candidature&#45;&gt;SuiviCandidature -->
+<g id="edge38" class="edge">
+<title>Candidature&#45;&gt;SuiviCandidature</title>
+<path fill="none" stroke="#526987" stroke-dasharray="5,2" d="M499.52,-723.1C506.89,-706.39 515.29,-687.35 523,-669.87"/>
+<polygon fill="#526987" stroke="#526987" points="526,-671.74 526.83,-661.18 519.59,-668.91 526,-671.74"/>
+<text xml:space="preserve" text-anchor="middle" x="543.36" y="-688.4" font-family="Arial" font-size="10.00" fill="#213950">vue calculée</text>
+</g>
+<!-- CommissionSelection -->
+<g id="node15" class="node">
+<title>CommissionSelection</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M354.69,-1425.2C354.69,-1425.2 247.31,-1425.2 247.31,-1425.2 241.31,-1425.2 235.31,-1419.2 235.31,-1413.2 235.31,-1413.2 235.31,-1400.4 235.31,-1400.4 235.31,-1394.4 241.31,-1388.4 247.31,-1388.4 247.31,-1388.4 354.69,-1388.4 354.69,-1388.4 360.69,-1388.4 366.69,-1394.4 366.69,-1400.4 366.69,-1400.4 366.69,-1413.2 366.69,-1413.2 366.69,-1419.2 360.69,-1425.2 354.69,-1425.2"/>
+<text xml:space="preserve" text-anchor="middle" x="301" y="-1410.4" font-family="Arial" font-size="12.00" fill="#152b44">CommissionSelection</text>
+<text xml:space="preserve" text-anchor="middle" x="301" y="-1396" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+</g>
+<!-- CommissionSelection&#45;&gt;ProfilEnseignant -->
+<g id="edge20" class="edge">
+<title>CommissionSelection&#45;&gt;ProfilEnseignant</title>
+<path fill="none" stroke="#526987" d="M351.96,-1387.99C395.55,-1371.69 459.12,-1345.35 510,-1313.8 519.96,-1307.62 530.03,-1300.01 539.13,-1292.49"/>
+<text xml:space="preserve" text-anchor="middle" x="531.63" y="-1295.49" font-family="Arial" font-size="10.00" fill="#213950">1..*</text>
+<text xml:space="preserve" text-anchor="middle" x="344.46" y="-1390.99" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+</g>
+<!-- CommissionSelection&#45;&gt;Candidature -->
+<g id="edge17" class="edge">
+<title>CommissionSelection&#45;&gt;Candidature</title>
+<path fill="none" stroke="#526987" d="M304.25,-1388.29C315.06,-1330.95 351.73,-1143.81 397,-993 415.44,-931.56 441.98,-862.5 459.82,-818.09"/>
+<text xml:space="preserve" text-anchor="middle" x="386.23" y="-1136" font-family="Arial" font-size="10.00" fill="#213950">examine</text>
+<text xml:space="preserve" text-anchor="middle" x="452.32" y="-821.09" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="295.91" y="-1391.29" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+</g>
+<!-- CommissionSelection&#45;&gt;Entretien -->
+<g id="edge19" class="edge">
+<title>CommissionSelection&#45;&gt;Entretien</title>
+<path fill="none" stroke="#526987" d="M281.69,-1388.11C256.06,-1362.6 214,-1312.76 214,-1260.4 214,-1260.4 214,-1260.4 214,-769.6 214,-727.58 194.88,-683.16 178.23,-652.45"/>
+<text xml:space="preserve" text-anchor="middle" x="170.73" y="-655.45" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="278.91" y="-1391.11" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- CommissionSelection&#45;&gt;DecisionSelection -->
+<g id="edge21" class="edge">
+<title>CommissionSelection&#45;&gt;DecisionSelection</title>
+<path fill="none" stroke="#526987" d="M293.71,-1388.24C283.2,-1361.25 265,-1307.73 265,-1260.4 265,-1260.4 265,-1260.4 265,-769.6 265,-731.4 278.25,-690.17 290.83,-659.63"/>
+<text xml:space="preserve" text-anchor="middle" x="283.32" y="-662.63" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="290.93" y="-1391.24" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- DossierInscription&#45;&gt;Accord -->
+<g id="edge24" class="edge">
+<title>DossierInscription&#45;&gt;Accord</title>
+<path fill="none" stroke="#526987" d="M820.84,-570.21C851.48,-540.88 892.49,-501.63 922.77,-472.66"/>
+<polygon fill="#526987" stroke="#526987" points="821,-570.05 819.43,-577.08 812.33,-578.34 813.9,-571.3 821,-570.05"/>
+<text xml:space="preserve" text-anchor="middle" x="915.26" y="-475.66" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="808.9" y="-581.97" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- DossierInscription&#45;&gt;Inscription -->
+<g id="edge26" class="edge">
+<title>DossierInscription&#45;&gt;Inscription</title>
+<path fill="none" stroke="#526987" d="M796.21,-579.16C802.16,-566.99 808.01,-552.74 811,-539 816.3,-514.64 812.95,-486.55 808.6,-465.44"/>
+<text xml:space="preserve" text-anchor="middle" x="800.26" y="-468.44" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+<text xml:space="preserve" text-anchor="middle" x="793.43" y="-582.16" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- DossierInscription&#45;&gt;Piece -->
+<g id="edge29" class="edge">
+<title>DossierInscription&#45;&gt;Piece</title>
+<path fill="none" stroke="#526987" d="M712.83,-585C663.47,-564.3 594.57,-533.56 537,-501 514.33,-488.18 490.2,-471.72 471.43,-458.22"/>
+<text xml:space="preserve" text-anchor="middle" x="653.88" y="-530" font-family="Arial" font-size="10.00" fill="#213950">phase administrative</text>
+<text xml:space="preserve" text-anchor="middle" x="463.93" y="-461.22" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="704.49" y="-588" font-family="Arial" font-size="10.00" fill="#213950">0..1</text>
+</g>
+<!-- ExigencePiece&#45;&gt;Piece -->
+<g id="edge30" class="edge">
+<title>ExigencePiece&#45;&gt;Piece</title>
+<path fill="none" stroke="#526987" d="M74.13,-843.4C48.72,-770.3 20.43,-647.39 78,-565 86.7,-552.55 265.95,-490.87 368.16,-456.48"/>
+<text xml:space="preserve" text-anchor="middle" x="360.66" y="-459.48" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="71.35" y="-846.4" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- VersionFichier -->
+<g id="node23" class="node">
+<title>VersionFichier</title>
+<path fill="#eff6ff" stroke="#5176a4" d="M793.03,-292.2C793.03,-292.2 672.97,-292.2 672.97,-292.2 666.97,-292.2 660.97,-286.2 660.97,-280.2 660.97,-280.2 660.97,-166.6 660.97,-166.6 660.97,-160.6 666.97,-154.6 672.97,-154.6 672.97,-154.6 793.03,-154.6 793.03,-154.6 799.03,-154.6 805.03,-160.6 805.03,-166.6 805.03,-166.6 805.03,-280.2 805.03,-280.2 805.03,-286.2 799.03,-292.2 793.03,-292.2"/>
+<text xml:space="preserve" text-anchor="middle" x="733" y="-277.4" font-family="Arial" font-size="12.00" fill="#152b44">VersionFichier</text>
+<text xml:space="preserve" text-anchor="middle" x="733" y="-263" font-family="Arial" font-size="12.00" fill="#152b44">UUID id</text>
+<text xml:space="preserve" text-anchor="middle" x="733" y="-248.6" font-family="Arial" font-size="12.00" fill="#152b44">Integer numero</text>
+<text xml:space="preserve" text-anchor="middle" x="733" y="-234.2" font-family="Arial" font-size="12.00" fill="#152b44">String nomOriginal</text>
+<text xml:space="preserve" text-anchor="middle" x="733" y="-219.8" font-family="Arial" font-size="12.00" fill="#152b44">String typeMimeDetecte</text>
+<text xml:space="preserve" text-anchor="middle" x="733" y="-205.4" font-family="Arial" font-size="12.00" fill="#152b44">Integer tailleOctets</text>
+<text xml:space="preserve" text-anchor="middle" x="733" y="-191" font-family="Arial" font-size="12.00" fill="#152b44">String cleStockage</text>
+<text xml:space="preserve" text-anchor="middle" x="733" y="-176.6" font-family="Arial" font-size="12.00" fill="#152b44">String empreinte</text>
+<text xml:space="preserve" text-anchor="middle" x="733" y="-162.2" font-family="Arial" font-size="12.00" fill="#152b44">DateTime deposeLe</text>
+</g>
+<!-- Piece&#45;&gt;VersionFichier -->
+<g id="edge31" class="edge">
+<title>Piece&#45;&gt;VersionFichier</title>
+<path fill="none" stroke="#526987" d="M484.12,-398.87C531.38,-365.74 605.55,-313.74 660.64,-275.12"/>
+<polygon fill="#526987" stroke="#526987" points="484.15,-398.85 481.53,-405.57 474.32,-405.74 476.94,-399.02 484.15,-398.85"/>
+<text xml:space="preserve" text-anchor="middle" x="653.14" y="-278.12" font-family="Arial" font-size="10.00" fill="#213950">1..*</text>
+<text xml:space="preserve" text-anchor="middle" x="470.8" y="-409.26" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- VersionFichier&#45;&gt;ControlePiece -->
+<g id="edge32" class="edge">
+<title>VersionFichier&#45;&gt;ControlePiece</title>
+<path fill="none" stroke="#526987" d="M815.25,-155.44C840.16,-135.17 866.96,-113.36 889.84,-94.73"/>
+<polygon fill="#526987" stroke="#526987" points="815.46,-155.28 813.33,-162.17 806.15,-162.85 808.28,-155.96 815.46,-155.28"/>
+<text xml:space="preserve" text-anchor="middle" x="882.33" y="-97.73" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="802.67" y="-166.42" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- EvenementAudit&#45;&gt;Notification -->
+<g id="edge36" class="edge">
+<title>EvenementAudit&#45;&gt;Notification</title>
+<path fill="none" stroke="#526987" d="M707.05,-370.96C711.05,-368.34 715.04,-365.81 719,-363.4 792.11,-318.94 881.54,-277.36 940.72,-251.47"/>
+<text xml:space="preserve" text-anchor="middle" x="802.31" y="-328.4" font-family="Arial" font-size="10.00" fill="#213950">déclenche</text>
+<text xml:space="preserve" text-anchor="middle" x="933.21" y="-254.47" font-family="Arial" font-size="10.00" fill="#213950">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="704.27" y="-373.96" font-family="Arial" font-size="10.00" fill="#213950">1</text>
+</g>
+<!-- SuiviCandidature&#45;&gt;FenetreEtape -->
+<g id="edge40" class="edge">
+<title>SuiviCandidature&#45;&gt;FenetreEtape</title>
+<path fill="none" stroke="#526987" stroke-dasharray="5,2" d="M459.01,-571.7C388.81,-540.54 291.88,-497.51 224.76,-467.72"/>
+<polygon fill="#526987" stroke="#526987" points="226.2,-464.53 215.64,-463.67 223.36,-470.92 226.2,-464.53"/>
+</g>
+<!-- SuiviCandidature&#45;&gt;EvenementAudit -->
+<g id="edge39" class="edge">
+<title>SuiviCandidature&#45;&gt;EvenementAudit</title>
+<path fill="none" stroke="#526987" stroke-dasharray="5,2" d="M568.81,-564.9C576.12,-548.63 584.55,-529.88 592.71,-511.71"/>
+<polygon fill="#526987" stroke="#526987" points="595.82,-513.34 596.73,-502.78 589.43,-510.47 595.82,-513.34"/>
+</g>
+</g>
+</svg>

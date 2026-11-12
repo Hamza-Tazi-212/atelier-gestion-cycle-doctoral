@@ -2,6 +2,12 @@
 
 Le modèle couvre l'inscription initiale, de la candidature à l'inscription définitive. La réinscription concerne un doctorant déjà inscrit et relève d'un parcours distinct. Les diagrammes du dépôt donnent le déroulement proposé. Les ressources GCD décrivent la procédure actuelle. Le tableau comparatif inspire le suivi visuel et la correction ciblée des pièces.
 
+## Diagrammes à consulter
+
+- [Classes conceptuelles](classes-conceptuel.svg)
+- [Classes d’implémentation](classes-implementation.svg)
+- [États et transitions](etats-transitions.svg)
+
 ## Parcours candidat confirmé pour GCD+
 
 L’accueil présente les sujets publiés sans connexion. Le visiteur peut les ajouter au panier, qui est conservé après connexion. L’envoi d’une candidature exige une connexion par e-mail. Chaque candidat peut postuler à trois sujets maximum par campagne, en comptant les candidatures déjà envoyées.
