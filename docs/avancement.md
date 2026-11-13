@@ -1,6 +1,6 @@
 # Suivi d’avancement
 
-**Dernière mise à jour : 12 novembre 2026**
+**Dernière mise à jour : 13 novembre 2026**
 
 ## Travaux réalisés
 
@@ -12,6 +12,7 @@
 | 23/10/2026 | Préparation des documents de présentation. | Deux PDF, aperçus visuels et versions Mermaid modifiables. |
 | 12/11/2026 | Finalisation du TP de la séance 5 et ajout du tableau comparatif. | Trois diagrammes UML, règles de gestion et pistes d’amélioration. |
 | 12/11/2026 | Confirmation du parcours candidat et initialisation de GCD+ en local. | Accueil public, panier sans compte, connexion par e-mail pour postuler et trois sujets maximum. |
+| 13/11/2026 | Développement et vérification du prototype GCD+. | [Fonctionnalités réalisées et vérifications](gcd-plus/developpement.md), [diagrammes UML de l’application](gcd-plus/diagrammes/README.md). |
 
 ## Points à discuter avec le professeur
 

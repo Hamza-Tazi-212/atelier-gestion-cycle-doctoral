@@ -1,0 +1,38 @@
+@startuml
+left to right direction
+skinparam shadowing false
+title GCD+ · Cas d’utilisation du candidat et du doctorant
+actor Visiteur
+actor Candidat
+actor Doctorant
+Candidat --|> Visiteur
+Doctorant --|> Candidat
+rectangle "GCD+" {
+  usecase "Consulter et filtrer\nles sujets publiés" as Catalogue
+  usecase "Gérer le panier" as Panier
+  usecase "Créer un compte candidat" as InscriptionCompte
+  usecase "Se connecter" as Connexion
+  usecase "Compléter son profil" as Profil
+  usecase "Déposer une candidature" as Depot
+  usecase "Suivre ses dossiers\net ses notifications" as Suivi
+  usecase "Remplacer une pièce\nsur demande" as Correction
+  usecase "Déposer les pièces\nd’inscription administrative" as Pieces
+  usecase "Demander sa réinscription\nou une prolongation" as Renouvellement
+}
+Visiteur -- Catalogue
+Visiteur -- Panier
+Visiteur -- InscriptionCompte
+Visiteur -- Connexion
+Candidat -- Profil
+Candidat -- Depot
+Candidat -- Suivi
+Candidat -- Correction
+Candidat -- Pieces
+Doctorant -- Renouvellement
+note right of Depot
+  Compte connecté et profil complet.
+  Trois candidatures au maximum par campagne.
+  Les formulaires de pièces acceptent un PDF
+  importé ou généré à partir de photos.
+end note
+@enduml

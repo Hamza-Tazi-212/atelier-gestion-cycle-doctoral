@@ -1,0 +1,29 @@
+@startuml
+skinparam shadowing false
+title GCD+ · États de candidature et inscription administrative
+state "En attente" as Pending
+state "Admissible à l’oral" as Oral
+state "Sur liste d’attente" as Waiting
+state "Retenue" as Accepted
+state "Refusée" as Rejected
+state "Inscription confirmée" as Enrolled
+[*] --> Pending : dossier envoyé
+Pending --> Oral : admissibilité et convocation
+Pending --> Rejected : refus
+Oral --> Waiting : date d’oral passée et rang attribué
+Oral --> Accepted : décision favorable
+Oral --> Rejected : refus
+Waiting --> Accepted : promotion
+Waiting --> Rejected : refus
+Accepted --> Enrolled : contrôle et confirmation administratifs
+note right of Pending
+  Une demande de remplacement
+  ouverte suspend la décision
+  sans changer l’état du dossier.
+end note
+note right of Enrolled
+  L’inscription est enregistrée
+  séparément. La candidature
+  conserve l’état « Retenue ».
+end note
+@enduml

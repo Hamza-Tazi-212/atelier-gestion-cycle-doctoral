@@ -1,0 +1,35 @@
+@startuml
+skinparam shadowing false
+title GCD+ · Séquence de dépôt d’une candidature
+actor Candidat
+participant Navigateur
+participant "Routes et contrôleurs Laravel" as Web
+participant "ApplicationService" as Service
+database "Base SQL" as Base
+participant "Stockage privé" as Fichiers
+Candidat -> Navigateur : Ajouter un sujet au panier
+Navigateur -> Web : POST panier
+Web -> Web : Conserver le panier en session
+Candidat -> Navigateur : Se connecter et ouvrir le dossier
+Navigateur -> Web : Authentifier, puis afficher le formulaire
+Web -> Base : Vérifier le compte et charger le profil
+Web --> Navigateur : Formulaire du sujet si profil complet
+alt Scan avec la caméra
+  Candidat -> Navigateur : Capturer, vérifier et valider les pages
+  Navigateur -> Navigateur : Générer et joindre le PDF
+else PDF existant
+  Candidat -> Navigateur : Choisir le fichier PDF
+end
+Candidat -> Navigateur : Envoyer la candidature
+Navigateur -> Web : Formulaire et pièces PDF
+Web -> Service : Valider puis traiter le dépôt
+Service -> Base : Vérifier le quota et l’absence de doublon
+alt Dépôt autorisé
+  Service -> Base : Créer le dossier dans une transaction
+  Service -> Fichiers : Copier les pièces du profil et stocker la lettre
+  Service -> Base : Journaliser l’état initial et valider la transaction
+  Web --> Navigateur : Redirection vers le suivi
+else Dépôt bloqué
+  Web --> Navigateur : Afficher l’erreur de validation
+end
+@enduml

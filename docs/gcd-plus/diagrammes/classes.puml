@@ -1,0 +1,78 @@
+@startuml
+skinparam shadowing false
+hide circle
+title GCD+ · Classes métier principales
+class User {
+  email
+  role
+  is_active
+}
+class StaffAssignment {
+  function
+}
+class Department {
+  name
+  code
+}
+class ResearchSubject {
+  title
+  campaign
+  laboratory
+  field
+  is_open
+  approvalRevision()
+}
+class SubjectApproval {
+  function
+  revision
+  approved
+}
+class Profile
+class ProfileDocument
+class Application {
+  status
+  campaign
+  oral_exam_at
+  waitlist_rank
+  allowsDocumentCorrections()
+}
+class ApplicationStatusLog
+class ApplicationDocument
+class ApplicationDocumentCorrection {
+  reason
+  resolved_at
+}
+class EnrolmentDocument {
+  kind
+  status
+}
+class DoctoralEnrolment {
+  academic_year
+}
+class Renewal {
+  academic_year
+  status
+  extension
+  hasRequiredApprovals()
+}
+class RenewalApproval {
+  function
+  approved
+}
+User "1" -- "0..1" Profile
+Profile "1" -- "0..*" ProfileDocument
+User "1" -- "0..*" StaffAssignment
+ResearchSubject "1" -- "0..*" StaffAssignment
+Department "1" -- "0..*" ResearchSubject
+User "1" -- "0..*" ResearchSubject : encadre
+ResearchSubject "1" -- "0..*" SubjectApproval
+User "1" -- "0..*" Application : dépose
+ResearchSubject "1" -- "0..*" Application
+Application "1" -- "0..*" ApplicationStatusLog
+Application "1" -- "0..*" ApplicationDocument
+ApplicationDocument "1" -- "0..*" ApplicationDocumentCorrection
+Application "1" -- "0..*" EnrolmentDocument
+Application "1" -- "0..1" DoctoralEnrolment
+DoctoralEnrolment "1" -- "0..*" Renewal
+Renewal "1" -- "0..*" RenewalApproval
+@enduml

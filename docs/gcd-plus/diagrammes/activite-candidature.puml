@@ -1,0 +1,53 @@
+@startuml
+skinparam shadowing false
+title GCD+ · Activité de candidature et d’inscription
+|Visiteur et candidat|
+start
+:Consulter les sujets ouverts;
+:Ajouter des sujets au panier;
+:Créer un compte si nécessaire\net se connecter;
+:Compléter le profil et préparer les PDF;
+:Envoyer le dossier pour un sujet;
+|GCD+|
+:Vérifier la campagne, le quota de trois,\nl’unicité du dossier et les pièces;
+if (Dépôt recevable ?) then (oui)
+  :Enregistrer et horodater le dépôt;
+else (non)
+  :Afficher le motif du blocage;
+  stop
+endif
+|Sélection|
+while (Une pièce doit être remplacée ?) is (oui)
+  :Indiquer la pièce et le motif;
+  |Visiteur et candidat|
+  :Ouvrir le dépôt depuis « Prochaine action »\net remplacer la pièce;
+  |Sélection|
+endwhile (non)
+if (Admissible ?) then (oui)
+  :Programmer l’oral;
+  |Visiteur et candidat|
+  :Consulter la convocation et passer l’oral;
+  |Sélection|
+  if (Placé sur liste d’attente ?) then (oui)
+    :Attribuer un rang et notifier;
+  endif
+  if (Retenu après décision ?) then (oui)
+    |Visiteur et candidat|
+    :Déposer les pièces administratives;
+    |Gestionnaire ou administrateur|
+    while (Pièce à corriger ?) is (oui)
+      :Demander un complément;
+      |Visiteur et candidat|
+      :Redéposer la pièce demandée;
+      |Gestionnaire ou administrateur|
+    endwhile (non)
+    :Confirmer l’inscription après validation\ndes pièces obligatoires;
+  else (non)
+    |Sélection|
+    :Le dossier reste en attente\nou fait l’objet d’un refus;
+  endif
+else (non)
+  :Enregistrer le refus;
+endif
+stop
+@enduml

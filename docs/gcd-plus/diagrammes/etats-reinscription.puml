@@ -1,0 +1,27 @@
+@startuml
+skinparam shadowing false
+title GCD+ · États de réinscription
+state "Avis de l’encadrant attendu" as Submitted
+state "Avis favorable" as Favorable
+state "Avis défavorable" as Unfavorable
+state "Complément demandé" as Correction
+state "Réinscription confirmée" as Confirmed
+state "Réinscription refusée" as Rejected
+[*] --> Submitted : dépôt du bilan
+Submitted --> Favorable : avis favorable
+Submitted --> Unfavorable : avis défavorable
+Submitted --> Correction : complément
+Favorable --> Correction : complément
+Unfavorable --> Correction : complément
+Correction --> Submitted : dossier corrigé
+Favorable --> Confirmed : accords et contrôle validés
+Favorable --> Rejected : refus administratif
+Unfavorable --> Rejected : refus administratif
+Confirmed --> [*]
+Rejected --> [*]
+note right of Favorable
+  Une demande de prolongation
+  exige aussi une décision favorable
+  du chef d’établissement.
+end note
+@enduml
