@@ -2,8 +2,8 @@
 
 **Étudiant :** Hamza Tazi  
 **Compte GitHub :** [Hamza-Tazi-212](https://github.com/Hamza-Tazi-212)  
-**Dernière mise à jour :** 13 novembre 2026<br>
-**État :** TP de la séance 5 terminé. Prototype GCD+ réalisé et vérifié en local.
+**Dernière mise à jour :** 12 novembre 2026<br>
+**État :** TP de la séance 5 terminé. Projet Laravel GCD+ initialisé en local.
 
 ## Objectif
 
@@ -20,9 +20,6 @@
 | [Suivi de l’avancement](docs/avancement.md) | Travaux réalisés, points à discuter et prochaines étapes. |
 | [TP de la séance 5](docs/tp-seance-5/README.md) | Trois diagrammes UML et règles de gestion des candidatures. |
 | [Tableau comparatif GCD](docs/tableau-comparatif-gcd.pdf) | Pistes d’amélioration discutées en atelier. |
-| [Projet GCD+](docs/gcd-plus/README.md) | Fonctionnalités du prototype et parcours de démonstration. |
-| [Déroulement du développement](docs/gcd-plus/developpement.md) | Analyse, adaptation de CDOC, réalisation et vérifications. |
-| [Diagrammes UML de GCD+](docs/gcd-plus/diagrammes/README.md) | Cas d’utilisation, classes, activités, séquence, états et architecture. |
 
 ## Parcours candidat confirmé pour GCD+
 
